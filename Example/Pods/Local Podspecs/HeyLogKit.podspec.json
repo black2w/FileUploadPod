@@ -1,0 +1,45 @@
+{
+  "name": "HeyLogKit",
+  "version": "0.1.0",
+  "summary": "A short description of HeyLogKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/black2w/HeyLogKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangwei": "black2w@126.com"
+  },
+  "source": {
+    "git": "https://github.com/black2w/HeyLogKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HeyLogKit/Classes/**/*",
+  "resource_bundles": {
+    "HeyLogKit": [
+      "HeyLogKit/Assets/*.png",
+      "HeyLogKit/Assets/*.gif"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "JSONModel": [
+
+    ],
+    "SwiftHTTP": [
+
+    ],
+    "HandyJSON": [
+
+    ],
+    "SnapKit": [
+
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - HandyJSON (5.0.2)
+  - HeyLogKit (0.1.0):
+    - AFNetworking
+    - HandyJSON
+    - JSONModel
+    - SnapKit
+    - SwiftHTTP
+  - JSONModel (1.8.0)
+  - SnapKit (5.6.0)
+  - SwiftHTTP (3.0.1)
+
+DEPENDENCIES:
+  - HeyLogKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - HandyJSON
+    - JSONModel
+    - SnapKit
+    - SwiftHTTP
+
+EXTERNAL SOURCES:
+  HeyLogKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  HeyLogKit: d3ccf2836d5bc9ddd5674983648b84a3c3d2bea8
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftHTTP: e94f1aa8cde58637dcc0100f6349de31a3337fde
+
+PODFILE CHECKSUM: 03b8608346ba57bbb775ebed7b91af9ef361b27b
+
+COCOAPODS: 1.11.3
