@@ -1,5 +1,5 @@
 import XCTest
-import HeyLogKit
+//import HeyLogKit
 
 class Tests: XCTestCase {
     

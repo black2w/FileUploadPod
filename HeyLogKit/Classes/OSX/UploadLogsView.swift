@@ -38,7 +38,7 @@ private extension UploadLogsView {
         
         cancelButton.btnTitle = "取消"
         cancelButton.titleColor = NSColor.white
-        cancelButton.norImage = NSImage(named: "button_bg_nor")
+//        cancelButton.norImage = NSImage(named: "button_bg_nor")
 //        cancelButton.hovImage = NSImage(named: "button_bg_hov")
 //        cancelButton.updateUI()
 //

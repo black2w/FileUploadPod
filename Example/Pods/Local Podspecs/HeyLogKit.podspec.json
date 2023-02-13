@@ -15,12 +15,6 @@
     "git": "https://github.com/black2w/HeyLogKit.git",
     "tag": "0.1.0"
   },
-  "resource_bundles": {
-    "HeyLogKit": [
-      "HeyLogKit/Assets/*.png",
-      "HeyLogKit/Assets/*.gif"
-    ]
-  },
   "dependencies": {
     "AFNetworking": [
 
@@ -70,6 +64,12 @@
         "SnapKit": [
 
         ]
+      },
+      "resource_bundles": {
+        "HeyLogKit": [
+          "HeyLogKit/Assets/iOS/*.png",
+          "HeyLogKit/Assets/iOS/*.gif"
+        ]
       }
     },
     {
@@ -99,6 +99,12 @@
         ],
         "SnapKit": [
 
+        ]
+      },
+      "resource_bundles": {
+        "HeyLogKit": [
+          "HeyLogKit/Assets/OSX/*.xcassets",
+          "HeyLogKit/Assets/OSX/*.gif"
         ]
       }
     }

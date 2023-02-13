@@ -40,6 +40,14 @@ TODO: Add long description of the pod here.
       i.dependency 'SwiftHTTP'
       i.dependency 'HandyJSON'
       i.dependency 'SnapKit'
+      
+      i.resource_bundles = {
+        'HeyLogKit' => [
+                           'HeyLogKit/Assets/iOS/*.png',
+                           'HeyLogKit/Assets/iOS/*.gif',
+                       ]
+      }
+      
    end
 
    s.subspec 'OSX' do |o|
@@ -52,6 +60,13 @@ TODO: Add long description of the pod here.
        o.dependency 'SwiftHTTP'
        o.dependency 'HandyJSON'
        o.dependency 'SnapKit'
+       
+       o.resource_bundles = {
+         'HeyLogKit' => [
+                            'HeyLogKit/Assets/OSX/*.xcassets',
+                            'HeyLogKit/Assets/OSX/*.gif',
+                        ]
+       }
    end
    
    
@@ -72,12 +87,12 @@ TODO: Add long description of the pod here.
   
 #  s.source_files = 'HeyLogKit/Classes/**/*'
 
-   s.resource_bundles = {
-     'HeyLogKit' => [
-                        'HeyLogKit/Assets/*.png',
-                        'HeyLogKit/Assets/*.gif',
-                    ]
-   }
+#   s.resource_bundles = {
+#     'HeyLogKit' => [
+#                        'HeyLogKit/Assets/*.png',
+#                        'HeyLogKit/Assets/*.gif',
+#                    ]
+#   }
    
 #   s.resources = 'AssetsDemo/{Assets,Classes}/**/*.{xcassets,png,xib}'
 
