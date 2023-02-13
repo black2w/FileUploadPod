@@ -10,13 +10,19 @@ import Cocoa
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-    @IBOutlet var window: NSWindow!
-
-
+    
+    var windowController = WindowController()
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        
+        let wc = WindowController.init(windowNibName: "WindowController")
+        wc.window?.makeKeyAndOrderFront(nil)
+        windowController = wc
     }
+    
+    
+    
+   
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
@@ -28,4 +34,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
 }
+
+
 

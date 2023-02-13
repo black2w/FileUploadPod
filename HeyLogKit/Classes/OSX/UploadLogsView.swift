@@ -38,11 +38,10 @@ private extension UploadLogsView {
         
         cancelButton.btnTitle = "取消"
         cancelButton.titleColor = NSColor.white
-        cancelButton.norImage = NSImage(named: "button_bg_nor")
-        cancelButton.hovImage = NSImage(named: "button_bg_hov")
+        cancelButton.backgroundColor = NSColor(calibratedRed: (47.0/255.0), green: (84.0/255.0), blue: (235.0/255.0), alpha: 1.0)
+        cancelButton.hovBackgroundColor = NSColor(calibratedRed: (71.0/255.0), green: (103.0/255.0), blue: (235.0/255.0), alpha: 1.0)
+        cancelButton.cornerRadius = 2.0
         cancelButton.updateUI()
-//
-        loadingView.configGifImage(img: NSImage.init(named: "loading")!)
     }
     
 }
@@ -51,7 +50,9 @@ private extension UploadLogsView {
 extension UploadLogsView {
     class func loadNibView() -> UploadLogsView? {
         var topLevelObjects : NSArray?
-        if Bundle.main.loadNibNamed("UploadLogsView", owner: self, topLevelObjects: &topLevelObjects) {
+        
+        let bundle = Bundle(for: UploadLogsView.self)
+        if bundle.loadNibNamed("UploadLogsView", owner: self, topLevelObjects: &topLevelObjects) {
             return topLevelObjects!.first(where: { $0 is UploadLogsView }) as? UploadLogsView ?? UploadLogsView()
         } else {
             return UploadLogsView()

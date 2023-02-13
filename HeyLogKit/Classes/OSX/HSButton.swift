@@ -82,6 +82,10 @@ class HSButton: NSButton {
             self.image = hovImage
         }
         
+        if let hovBackgroundColor = hovBackgroundColor {
+            self.layer?.backgroundColor = hovBackgroundColor.cgColor
+        }
+        
         configHovTitleColor()
         
     }
@@ -97,6 +101,10 @@ class HSButton: NSButton {
             self.image = selImage
         } else if selected == false && norImage != nil {
             self.image = norImage
+        }
+        
+        if selected == false && backgroundColor != nil {
+            self.layer?.backgroundColor = backgroundColor?.cgColor
         }
         
         if let _ = hovTitleColor, selected == false {

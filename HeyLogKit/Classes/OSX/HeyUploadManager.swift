@@ -49,7 +49,7 @@ import HandyJSON
             #if os(iOS)
                 self.usingIOSUI(onView: onView)
             #elseif os(macOS)
-            
+            self.usingIOSUI(onView: onView)
             #endif
         } else {
             let _ = self.upload { isUploadSuccess in
@@ -186,11 +186,14 @@ import HandyJSON
 //IOS UI
 extension HeyUploadManager {
     private func usingIOSUI(onView: NSView) -> Void {
-     
+        confirmUploadFile(onView: onView)
     }
     
     private func confirmUploadFile(onView: NSView) -> Void {
-
+        let uploadView = UploadLogsView.loadNibView()
+        
+        uploadView?.setFrameOrigin(NSPoint(x: (onView.bounds.size.width - 330)/2, y: (onView.bounds.size.height - 230)/2))
+        onView.addSubview(uploadView!, positioned: .above, relativeTo: nil)
     }
 }
 
