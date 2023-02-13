@@ -55,7 +55,7 @@ extension UploadLogsView {
             return topLevelObjects!.first(where: { $0 is UploadLogsView }) as? UploadLogsView ?? UploadLogsView()
         } else {
             return UploadLogsView()
-        }        
+        }
     }
     
     func dismissUploadView(cancelBlock: @escaping dismissBlock) {

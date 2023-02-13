@@ -46,11 +46,7 @@ import HandyJSON
     
     public func execute(onView: NSView) -> Void {
         if self.settings.usingDefaultUI {
-            #if os(iOS)
-                self.usingIOSUI(onView: onView)
-            #elseif os(macOS)
-            
-            #endif
+            self.usingIOSUI(onView: onView)
         } else {
             let _ = self.upload { isUploadSuccess in
                 
@@ -186,11 +182,44 @@ import HandyJSON
 //IOS UI
 extension HeyUploadManager {
     private func usingIOSUI(onView: NSView) -> Void {
-     
+        self.confirmUploadFile(onView: onView)
     }
     
     private func confirmUploadFile(onView: NSView) -> Void {
-
+        let containerView = getHUDContainerViewFromView(view: onView)
+        // 创建底部遮蔽视图
+        let maskView = HUDMaskView.init(frame: containerView.bounds)
+        maskView.wantsLayer = true
+        maskView.layer?.backgroundColor = NSColor(calibratedWhite: 0, alpha: 0.2).cgColor
+        showUploadContentView(containerView: maskView)
+    }
+    
+    private func getHUDContainerViewFromView(view:Any?) -> NSView {
+        let containerView: NSView = NSView()
+        if (view is NSWindow) {
+            let window = view as! NSWindow
+            return window.contentView ?? containerView
+        } else if (view is NSBox) {
+            let box = view as! NSBox
+            return box.window?.contentView ?? containerView
+        } else if (view is NSView){
+            let v = view as! NSView
+            return v.window?.contentView ?? containerView
+        }
+        return containerView
+    }
+    
+    // 显示上传页面
+    private func showUploadContentView(containerView: HUDMaskView) {
+        let uploadView = UploadLogsView.loadNibView()
+        let x = (containerView.bounds.size.width-330)/2
+        let y = (containerView.bounds.size.height-230)/2
+        uploadView?.frame = NSMakeRect(x, y, 330, 230)
+        uploadView?.dismissUploadView { [self] in
+            uploadView?.removeFromSuperview()
+        }
+        // 添加视图
+        containerView.addSubview(uploadView!)
     }
 }
 

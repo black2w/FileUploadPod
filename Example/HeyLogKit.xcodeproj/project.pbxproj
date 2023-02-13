@@ -19,6 +19,7 @@
 		7C98C36E2994DE4C0054A4E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C98C36D2994DE4C0054A4E1 /* AppDelegate.swift */; };
 		7C98C3702994DE4D0054A4E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C98C36F2994DE4D0054A4E1 /* Assets.xcassets */; };
 		7C98C3732994DE4D0054A4E1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C98C3712994DE4D0054A4E1 /* MainMenu.xib */; };
+		7C98C3BB299A03490054A4E1 /* 2023.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7C98C3652994D8460054A4E1 /* 2023.zip */; };
 		B574F22EB80FB9E109919B01 /* Pods_HeyLogKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9068FD1C67672B2F1A675ED0 /* Pods_HeyLogKit_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		7C98C36F2994DE4D0054A4E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C98C3722994DE4D0054A4E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		7C98C3742994DE4D0054A4E1 /* HeyLogKit_MacDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeyLogKit_MacDemo.entitlements; sourceTree = "<group>"; };
+		7C98C3BC299A05870054A4E1 /* HeyLogKit-MacDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "HeyLogKit-MacDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
 		7D4298C25EBC5DCE106AFAF0 /* Pods-HeyLogKit_MacDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyLogKit_MacDemo.debug.xcconfig"; path = "Target Support Files/Pods-HeyLogKit_MacDemo/Pods-HeyLogKit_MacDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		81ED9AB2AA5F9DBAA960A4DA /* HeyLogKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HeyLogKit.podspec; path = ../HeyLogKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		81F2A0A76CFF970A3CBCBC2D /* Pods-HeyLogKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyLogKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-HeyLogKit_Tests/Pods-HeyLogKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 		7C98C36C2994DE4C0054A4E1 /* HeyLogKit_MacDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7C98C3BC299A05870054A4E1 /* HeyLogKit-MacDemo-Info.plist */,
 				7C98C36D2994DE4C0054A4E1 /* AppDelegate.swift */,
 				7C98C36F2994DE4D0054A4E1 /* Assets.xcassets */,
 				7C98C3712994DE4D0054A4E1 /* MainMenu.xib */,
@@ -334,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C98C3BB299A03490054A4E1 /* 2023.zip in Resources */,
 				7C98C3702994DE4D0054A4E1 /* Assets.xcassets in Resources */,
 				7C98C3732994DE4D0054A4E1 /* MainMenu.xib in Resources */,
 			);
@@ -731,6 +735,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HeyLogKit-MacDemo-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 CocoaPods. All rights reserved.";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -771,6 +776,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HeyLogKit-MacDemo-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 CocoaPods. All rights reserved.";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
