@@ -9,19 +9,16 @@
 import Cocoa
 import HeyLogKit
 
+@available(macOS 13.0, *)
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
-<<<<<<< HEAD
 
     @IBOutlet var window: NSWindow!
 
+
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
-        self.testUploadLog()
-    var windowController = WindowController()
-    
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
-        
+//        self.testUploadLog()
+        var windowController = WindowController()
         let wc = WindowController.init(windowNibName: "WindowController")
         wc.window?.makeKeyAndOrderFront(nil)
         windowController = wc
@@ -87,6 +84,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 }
 
 
+@available(macOS 13.0, *)
 extension AppDelegate: HeyUploadManagerDelegate {
     func uploadProgress(progress: Float) {
         

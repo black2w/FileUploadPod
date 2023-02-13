@@ -21,6 +21,7 @@
 		7C98C36E2994DE4C0054A4E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C98C36D2994DE4C0054A4E1 /* AppDelegate.swift */; };
 		7C98C3702994DE4D0054A4E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C98C36F2994DE4D0054A4E1 /* Assets.xcassets */; };
 		7C98C3732994DE4D0054A4E1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C98C3712994DE4D0054A4E1 /* MainMenu.xib */; };
+		7C98C3BD299A1AA00054A4E1 /* 2023.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7C98C3652994D8460054A4E1 /* 2023.zip */; };
 		B574F22EB80FB9E109919B01 /* Pods_HeyLogKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9068FD1C67672B2F1A675ED0 /* Pods_HeyLogKit_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -342,6 +343,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C98C3BD299A1AA00054A4E1 /* 2023.zip in Resources */,
 				42A25D1A299A04B700CCEA11 /* WindowController.xib in Resources */,
 				7C98C3702994DE4D0054A4E1 /* Assets.xcassets in Resources */,
 				7C98C3732994DE4D0054A4E1 /* MainMenu.xib in Resources */,
