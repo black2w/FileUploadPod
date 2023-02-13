@@ -53,7 +53,7 @@ class HUDGifView: NSView {
 
                 gifTimer = Timer.scheduledTimer(timeInterval: TimeInterval(delayTime), target: self, selector: #selector(animateGif), userInfo: nil, repeats: true)
 
-                RunLoop.main.add(gifTimer!, forMode: .commonModes)
+                RunLoop.main.add(gifTimer!, forMode: RunLoop.Mode.common)
             }
         }
     }
