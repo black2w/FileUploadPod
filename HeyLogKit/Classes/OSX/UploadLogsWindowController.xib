@@ -79,7 +79,7 @@
                             <constraint firstAttribute="height" constant="32" id="Fvw-0b-TeF"/>
                             <constraint firstAttribute="width" constant="104" id="p5H-xk-VUU"/>
                         </constraints>
-                        <buttonCell key="cell" type="bevel" title="取消" bezelStyle="rounded" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="JGc-eW-uEN">
+                        <buttonCell key="cell" type="bevel" title="取消" bezelStyle="rounded" image="button_bg_hov" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="JGc-eW-uEN">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="systemMedium" size="14"/>
                         </buttonCell>
@@ -107,4 +107,7 @@
             <point key="canvasLocation" x="106" y="125"/>
         </window>
     </objects>
+    <resources>
+        <image name="button_bg_hov" width="325" height="44"/>
+    </resources>
 </document>

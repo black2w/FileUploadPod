@@ -60,7 +60,21 @@ class HUDGifView: NSView {
     
     func configGifImage(name: String) {
         let myBundle = Bundle(for: HUDGifView.self)
-        guard let imagePath = myBundle.path(forResource: name, ofType: "gif") else { return }
+        let path = myBundle.path(forResource: "HeyLogKit", ofType: "bundle")!
+        let assetsBundle = Bundle.init(path: path)
+        guard let asBundle = assetsBundle else {
+            print("HeyUploadKit: assetsBundle for the image does not exist")
+            return
+        }
+        
+        guard let imagePath = asBundle.path(forResource: name, ofType: "gif") else {
+            print("HeyUploadKit: Source for the image does not exist")
+            return
+        }
+        
+        
+//        let myBundle = Bundle(for: HUDGifView.self)
+//        guard let imagePath = myBundle.path(forResource: name, ofType: "gif") else { return }
         guard let data = NSData(contentsOfFile: imagePath) else {return}
      
         image = NSImage(data: data as Data)

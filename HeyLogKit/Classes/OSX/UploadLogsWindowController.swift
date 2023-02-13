@@ -43,6 +43,6 @@ private extension UploadLogsWindowController {
         cancelButton.cornerRadius = 2.0
         cancelButton.updateUI()
      
-        loadingView.configGifImage(name: "load.gif")
+        loadingView.configGifImage(name: "loading")
     }
 }

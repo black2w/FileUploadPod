@@ -67,6 +67,11 @@ TODO: Add long description of the pod here.
                             'HeyLogKit/Assets/OSX/*.gif',
                         ]
        }
+
+#        o.resources = [
+#                        'HeyLogKit/Assets/OSX/*.xcassets',
+#                        'HeyLogKit/Assets/OSX/*.gif',
+#                    ]
    end
    
    

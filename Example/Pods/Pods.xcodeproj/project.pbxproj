@@ -11,6 +11,7 @@
 		01EF2FC5A7D8013B1E1AEE22F3304BC9 /* SnapKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02206793B088763698C74D33642170ED /* SnapKit-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		025E8AB81E09D6A97B79C6B00F9A4BAB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5307F0C99E8A20C9F99E11B4E2C809 /* Cocoa.framework */; };
 		02F6560F1F627B0E75D40088C98358AD /* HeyUploadModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D761C830D83FB42BB7FD868B9AFBC /* HeyUploadModalView.swift */; };
+		03762C477E247F05BD47461334181864 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8661896CD202BA762F5494D03ABCB /* ReplaceMe.swift */; };
 		03D0FC154AA4295EEF5E7C2AB8CBF02E /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCA8BCF294851DFA28F1E6C7C897649 /* JSONValueTransformer.m */; };
 		0516DD3DFD33BB1BDF414ACA130E5AEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F628CC8B3E4911F8D897D2900036E4 /* Foundation.framework */; };
 		0585C9F05C5B22C46CDA60E527ED5640 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0365EFBD3C88B39EAC2330D1C7631F /* URLTransform.swift */; };
@@ -82,10 +83,9 @@
 		375A9706B4885DB6AEA5B3E02C4ABB48 /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = B0BF318B8E397041FE58A8D5E6D977A5 /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39174246D86BC45DE2930DD875D487B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F628CC8B3E4911F8D897D2900036E4 /* Foundation.framework */; };
 		392FF58E5148C679FA8EE4666BB9A684 /* HandyJSON-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 490B03D4F9687856672B076D276D161C /* HandyJSON-macOS-dummy.m */; };
+		397331E019F7664ADABADAAC5B9E7F02 /* HUDMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E96EBD7F7A75C214DF839203D70984 /* HUDMaskView.swift */; };
 		3B43ECB1C4F8F81D61498DF9B99370C2 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F274F040C31F0D52DB9AC672133C67 /* AFURLRequestSerialization.m */; };
 		3C9511C28CE977BE3FD14E23EF2DF160 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD44FCC49A9784955E77376DB761E5 /* UILayoutSupport+Extensions.swift */; };
-		3CF406D8539BEED9D2262097FB909923 /* HeyLogKit-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC790BF39C2E2A39B43C3DDBC62DAB8 /* HeyLogKit-OSX-dummy.m */; };
-		3E14F22813F32D6113B560DA8A9EC27A /* HeyUPloadSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB48B1E2740037F84061C33788722F75 /* HeyUPloadSetting.swift */; };
 		3E70B1D81C2DDCFF24E29316703F1B26 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B63F2FF3728E7FA32FC52D9BC946801B /* AFURLResponseSerialization.m */; };
 		3E7A25BCE5BAC256FBBA56106C3192CD /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D1D2397433C189AA8272A9003A7AD65 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EAA9B290B369074360DFC94EB5E262A /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = D0886390E5770868FE8151D0A0C64899 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -98,14 +98,12 @@
 		41F8103FAADCB36E8A17F194718B0D96 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 11CAB5BEE0EC1640F596FB4775D31EB7 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		421B1890109F5AFFBC988E9EE1EF781E /* ContextDescriptorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF270753E2E2BC17E96F97579A0F29E3 /* ContextDescriptorType.swift */; };
 		42906BF58BCDD32B459F893A5845E54B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BA6A228E06B58F5C3FA41567E28DF /* ReplaceMe.swift */; };
-		42A25D25299A26B600CCEA11 /* UploadLogsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A25D23299A26B600CCEA11 /* UploadLogsWindowController.swift */; };
-		42A25D26299A26B600CCEA11 /* UploadLogsWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42A25D24299A26B600CCEA11 /* UploadLogsWindowController.xib */; };
 		43248552542C69DA7B6E15173F8CE559 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4BEA805C63719A5ADE46614ADC269A /* ConstraintViewDSL.swift */; };
 		440251794D818EB54F6913C228E5F086 /* OtherExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9628791AC41D16314B402D7EE0BCB1C0 /* OtherExtension.swift */; };
 		44082E505E538997EA4F4A6053554601 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213F97AB1A382F08A82B44E16593D211 /* CustomDateFormatTransform.swift */; };
 		4466D33F9E7A6BE7F703571BAE21308B /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A521CB44DA5C9BB1226625BDFDEE2 /* JSONAPI.m */; };
 		449671D93B2485B0D488666F808A2359 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C97A573B8A155A804B14BAE80A7021 /* ConstraintItem.swift */; };
-		44F799A0C9484DA90DF9E7600C6ADB2A /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = B0B94D3F4F3753D16A539BF6272F00B0 /* loading.gif */; };
+		44F799A0C9484DA90DF9E7600C6ADB2A /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = E2C3CB4491E1309E3D07919FA01B6373 /* loading.gif */; };
 		4545DE30EBFD1678CBD3A8D77BEA001C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5307F0C99E8A20C9F99E11B4E2C809 /* Cocoa.framework */; };
 		45A1A84FA5A0C23C09B78F1257535EB1 /* SwiftHTTP-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61066C8F4CF21900BE20672E8EAC9DA7 /* SwiftHTTP-iOS-dummy.m */; };
 		465184FD888051B3DB43822A1B25D455 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5307F0C99E8A20C9F99E11B4E2C809 /* Cocoa.framework */; };
@@ -117,6 +115,7 @@
 		4A714D3B83ED2B8D4336371EBBE58ACB /* Pods-HeyLogKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 977B46975C646D44E10ED39AA1EA9C6F /* Pods-HeyLogKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AD83BF89D883AD7BFAF587880985261 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D7A0D06F9E2D4791909E10A239ED98 /* Configuration.swift */; };
 		4BC6687911123A70A07F731F114F4899 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904437EB4835BABA7A4DC806864BD3A6 /* Upload.swift */; };
+		4BC74C192D6E7DD0676B21EF86E3219A /* HeyUPloadSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8684E4A8DD6AF28E47FEE80283B7F87 /* HeyUPloadSetting.swift */; };
 		4DCB59DE84A69063E9485E4D8BF8C637 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E0C91B60BC94A79E14A0FDB64C91DA /* AFNetworking-dummy.m */; };
 		50266F156412725DC470122A9D3BF596 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC7BEFE9FD960964CA4DC34BDB5D95 /* ConstraintDirectionalInsets.swift */; };
 		50388819B6708E344EE99739428A420C /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF4C08C00590C96ECB63EC2A1B6B357 /* Properties.swift */; };
@@ -142,7 +141,6 @@
 		60B9555F1926F64D973E3AE0A15F14A5 /* MangledName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F615CB6D8658D1406FEF7F1E267EB71 /* MangledName.swift */; };
 		615040623C3BA84D50E1D45B60D2E641 /* JSONModel-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DBABB5DA216DA0D44C6814B055E02BD /* JSONModel-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		620028CC2DFB4780362E119C9FCA947B /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536EF4C42695AC40E83045917A08D921 /* ConstraintLayoutSupportDSL.swift */; };
-		622A2D714EB855AF50B78410BC4169AF /* HUDMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCD3889FE3F221DD155352427223F2A /* HUDMaskView.swift */; };
 		62CC334014322DFEB5BDEDCC7C22EE0D /* HeyUploadWaitingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B4B38A094FFB54BD24DC2BAB99ECA3 /* HeyUploadWaitingView.swift */; };
 		63419018E7222B414E161CD480398E20 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409541833D5CCFF184EB235F6CF5F2D /* AFNetworkReachabilityManager.m */; };
 		637243EE5807271030AE4D9741392852 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6311F37879A8D96417FB5164E998B0 /* AFURLSessionManager.m */; };
@@ -150,7 +148,6 @@
 		65163D7E6539C8A1D65F5FCBA0E6EFD2 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BFF349A8ED116063A16643F622AA384 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		657D596F7ED1260403D4E064E6BF8CD1 /* WKWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F1FF24295918886024C9F78BE5D7E5 /* WKWebView+AFNetworking.m */; };
 		65C3E9C1B4663FF19C7BDF68F7BFEA68 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F4DE6FFE96959455516004207F80B4 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BD370A694972EC510DC3129B0EF45F9 /* HeyUploadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A543BD4B8658A22E9F51A88E1EA7A /* HeyUploadModel.swift */; };
 		6C239323DE74D9551EB571A31A24EC1E /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8416028EC5C08CADCA567B582C5659 /* UIProgressView+AFNetworking.m */; };
 		6D322AC713F897B10DA3FC70DADFB4B3 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536EF4C42695AC40E83045917A08D921 /* ConstraintLayoutSupportDSL.swift */; };
 		6DB244706298D81730C5537279B7B635 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCB8E51D03CB3DA7E9F6DEDAC3EB416 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -159,7 +156,6 @@
 		708B03818CD45F4DBFD47AAE74360295 /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6E1721C09CDE0A29D9A20DE42A019 /* Serializer.swift */; };
 		70CAE5B2E3EEAF482C2B17ACE3EBE4A3 /* HeyUploadWaitingView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2BB8F1F40D453FE87EDC172C54E9034F /* HeyUploadWaitingView.xib */; };
 		7113EFAD97F3F4E2253D989C55CF6365 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D7A0D06F9E2D4791909E10A239ED98 /* Configuration.swift */; };
-		728C6279FD8CD036F77BE7518978E87F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C0ABCDD095C1F03079174119613178 /* ReplaceMe.swift */; };
 		7463E7736F5C632FB711CE3A5B6B48EB /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99205529B81A09D07EAE76238798BA15 /* DateTransform.swift */; };
 		747FD66B0046AD43A755D36387808011 /* HeyLogKit-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 414A30165B4FF5ADE520D8F1B412DFED /* HeyLogKit-iOS-dummy.m */; };
 		755091F92F28E3510D4E0BB8C6C9EA34 /* HeyUploadView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 14065097F1ED8A3ADE512F095738BE30 /* HeyUploadView.xib */; };
@@ -173,7 +169,6 @@
 		7EE1FFA4AF912ED553E58431C20119CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F628CC8B3E4911F8D897D2900036E4 /* Foundation.framework */; };
 		7FD31F15DC7FFBA00E4FD44877C97661 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5307F0C99E8A20C9F99E11B4E2C809 /* Cocoa.framework */; };
 		801724F329AA434F8BB6A11E96E5805A /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 31985B1DB2EC177D8897C3E86D99E1AC /* AFAutoPurgingImageCache.m */; };
-		812BA03914B905B74CA526CDB03334C7 /* HSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280BE0B25631F292C46139EAE4FC2F60 /* HSButton.swift */; };
 		81BCEA2F92D641F4576600041B737ED4 /* Deserializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CD0236A567FD7405986F7098630379 /* Deserializer.swift */; };
 		81C42C3EF3FD0A18C4B4369C70F47037 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904437EB4835BABA7A4DC806864BD3A6 /* Upload.swift */; };
 		81C76941D750B3F226E07AE600A67FC6 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CFEC663580AF1A17A940B4A0F92E66B6 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -194,6 +189,7 @@
 		9070797E6933967AFB43027CD430FE8F /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE403EAB782B67C50BC83BEF7C4B37D8 /* DataTransform.swift */; };
 		9080AD0342D302E83261EF6F6699E3D3 /* Transformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B3380792B562265C24CB4BC2FD7A6 /* Transformable.swift */; };
 		918AD88A49B79CD1B13BAD5415FE5621 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD64F2DC88D0721A2F559C0E5C7D590 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91C2ED7E66B7AF47C04AA931C520158A /* UploadLogsWindowController.xib in Sources */ = {isa = PBXBuildFile; fileRef = BE458333A99990088C77191CA7745D4F /* UploadLogsWindowController.xib */; };
 		9648D05EDA87F53949C126FCB73E6FDA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5307F0C99E8A20C9F99E11B4E2C809 /* Cocoa.framework */; };
 		96A53EAE6033A87A282690693069B34D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F628CC8B3E4911F8D897D2900036E4 /* Foundation.framework */; };
 		97EB8976E78AA2C17544A6453BC1EF04 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B63F2FF3728E7FA32FC52D9BC946801B /* AFURLResponseSerialization.m */; };
@@ -205,9 +201,11 @@
 		9EF303E8E484B95E1E3B1A7202EA046E /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC20DDDE5FF1DE5009C886CC4505F40 /* ConstraintDSL.swift */; };
 		9F5D472E0B58C95613C76C43148FC8B5 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CD4506FC80AEE96D3455D3C31E3EF795 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FB85533902E29A329C16C4D00442B2E /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 593574B1B57782EB4622A9562F3235DF /* JSONHTTPClient.m */; };
+		A03D0DC45407E3F89B4D9A81F5552655 /* UploadLogsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779351826A748FFC40ECBBAAD2B56492 /* UploadLogsWindowController.swift */; };
+		A0564A734BD68DD2CF7724D1DC69D79A /* HeyUploadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907AF7116CCEE586F076DBF33D26235F /* HeyUploadModel.swift */; };
 		A0C71BA183ACADEEBD89014116DDE71A /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA4B8FECB90D5FC3DE6A16C06891CC1 /* Typealiases.swift */; };
 		A33AE4486188B66462DC85E37255200A /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FA8223E349AB1B820257DA66C14EBB /* ConstraintLayoutGuideDSL.swift */; };
-		A4AA2E35E5EE69CB0E25C40C47B781BA /* HUDGifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A54691D5424920EEABAB388A4550F /* HUDGifView.swift */; };
+		A34B417070DC9BDBA402501D379FB997 /* HeyLogKit-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC790BF39C2E2A39B43C3DDBC62DAB8 /* HeyLogKit-OSX-dummy.m */; };
 		A4B99501F18708AC075838184ADB7FC4 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082089F49F210BE2CCBF71C60955DC1A /* TransformType.swift */; };
 		A5431837F9AF83E032049166B9B2EE7C /* AFNetworking-c94d3492-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6BEF768DD4AB6D71C5A3A0AE699925 /* AFNetworking-c94d3492-dummy.m */; };
 		A5D4ABF87DB1367A103888613D904978 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB87A9BED27E1190B1D35CD3135E10 /* LayoutConstraint.swift */; };
@@ -260,6 +258,7 @@
 		CCCBDE34A45754C7AD958B78E67882DB /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E6623CACBEEE6A9ACEEAC62D381680 /* JSONModel+networking.m */; };
 		CD430A3D07E4CA640D7F68EE32A6DE61 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CFEC663580AF1A17A940B4A0F92E66B6 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDEF12A353FEBC8FE4E2EA0D3FFAC615 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F274F040C31F0D52DB9AC672133C67 /* AFURLRequestSerialization.m */; };
+		CED245C6BD14BA2D1F0E30B129EE5565 /* HUDGifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564781445521AD87B7DC4E96EE4771C8 /* HUDGifView.swift */; };
 		CED43C99233894CD24EB5A64B7CF8E8F /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FAC11774D0F41D79AB34995B84B453 /* ConstraintMakerEditable.swift */; };
 		CEE53027A2A9A2B53A5AAF37946AF825 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22189D3563710112624DE68F63D52F7 /* NSDecimalNumberTransform.swift */; };
 		D2820299CF2C4438C499759FD0681BB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F628CC8B3E4911F8D897D2900036E4 /* Foundation.framework */; };
@@ -268,8 +267,8 @@
 		D3814FF7430731ED96E0556C08EEB170 /* Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688453DF0388E4EBE9CB3CC8240282E /* Metadata.swift */; };
 		D3F143D0F7165D836675D25EE9F5481D /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DD03A1D77FA6B60BECAC23C68D35AE /* ConstraintMakerRelatable.swift */; };
 		D4C10D52815F391B40678D93D29ED833 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765382E82CFA50AE0F6E22DF506F490E /* ConstraintLayoutSupport.swift */; };
+		D61B24E60432E695E27142E37855E99A /* HSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8BD0D346F6D05CE72647EAB12B7AF0 /* HSButton.swift */; };
 		D674D2CDA2F18A6669DD1129D3DDE359 /* ConstraintMakerRelatable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E80865BC1D6A04EA2B4FE7137B7BBCD /* ConstraintMakerRelatable+Extensions.swift */; };
-		D6DF1B3B81534D6E76D380BA95D52DD2 /* HeyUploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C739361A5D26DBC3492F683D74B8CE2D /* HeyUploadManager.swift */; };
 		D7A15BEA7A6E4598B06358C122305F31 /* HeyUPloadSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F862599AF1B3379111C2CA65E297E0 /* HeyUPloadSetting.swift */; };
 		D8B556375069207598561F3BC659C922 /* Transformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B3380792B562265C24CB4BC2FD7A6 /* Transformable.swift */; };
 		D9A426B6990FF4378E4870F97E34CDDD /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 280D702EB7683BE0B46AD67731A970E6 /* JSONModel.m */; };
@@ -306,11 +305,12 @@
 		EF8D6BB968FA98433157D3B703050318 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FA851B464D6B718EE995D8B7D23B5B /* JSONModelClassProperty.m */; };
 		F0F78EEAA813AD5A42029F2422499453 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22189D3563710112624DE68F63D52F7 /* NSDecimalNumberTransform.swift */; };
 		F11C15077D08CC91DB3645FC4EEB93DF /* PropertyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDABC17494C5F8B0FD234DF9BBABC91 /* PropertyInfo.swift */; };
-		F24DB1815CEC3F4801EE162246CD3D41 /* OSXAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA9BAB34AC3B909D461EA0617E88CA6 /* OSXAssets.xcassets */; };
+		F24DB1815CEC3F4801EE162246CD3D41 /* OSXAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339DBAD8D085B53FF8F483E8546E3C77 /* OSXAssets.xcassets */; };
 		F2EE55C338DB481DA14E293BBD016F52 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = D0886390E5770868FE8151D0A0C64899 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3D5B31E9043910DAFA38785E1DD12EF /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AF010A0D93D5F22008D99A06EEAC1F /* AppKit.framework */; };
 		F4B3CAD4A1A8168858B3584852B4EBDF /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A39D702D41AA1A52AB3D0BDDE2DAA49 /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6ECE092494E97111C05CB7F6149EC17 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F4DE6FFE96959455516004207F80B4 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8286B38862AFD7C27DC8FB4E6FE8FF7 /* HeyUploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638FB351FCC1ADB867A73D63DC1E0DF5 /* HeyUploadManager.swift */; };
 		FA57C7B9116769DBBCAEE173060683A3 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 153BCFE0146A28BEF2351DCC9D4FDC20 /* AFImageDownloader.m */; };
 		FD9E05DB0E93EF2258D7C1668CCBE9FA /* PointerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A105395F0A4A324D275889F4EDA46B8 /* PointerType.swift */; };
 		FE5873669F9CC3848540E18C730EC73C /* MangledName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F615CB6D8658D1406FEF7F1E267EB71 /* MangledName.swift */; };
@@ -506,7 +506,6 @@
 		0A3C193B0B8EE4CB9D61A23913368C08 /* SnapKit-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SnapKit-macOS-dummy.m"; path = "../SnapKit-macOS/SnapKit-macOS-dummy.m"; sourceTree = "<group>"; };
 		0A44AECE2473FBC729B6ABC8C75CFFA2 /* Export.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Export.swift; path = Source/Export.swift; sourceTree = "<group>"; };
 		0AA4858B5CA9F6EC494BE8BD3220261B /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Sources/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
-		0C4A54691D5424920EEABAB388A4550F /* HUDGifView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUDGifView.swift; path = HeyLogKit/Classes/OSX/HUDGifView.swift; sourceTree = "<group>"; };
 		0DF00361D9874A0E115BC60A9EE8A0B8 /* HeyLogKit-OSX */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "HeyLogKit-OSX"; path = HeyLogKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF00EBD0BFDD7C5C21D2921EEF39B87 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatterTransform.swift; path = Source/DateFormatterTransform.swift; sourceTree = "<group>"; };
 		0E14428AB33AB572F5AEAFA795CEA428 /* Pods-HeyLogKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeyLogKit_Example-Info.plist"; sourceTree = "<group>"; };
@@ -517,7 +516,7 @@
 		14065097F1ED8A3ADE512F095738BE30 /* HeyUploadView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HeyUploadView.xib; path = HeyLogKit/Classes/iOS/HeyUploadView.xib; sourceTree = "<group>"; };
 		144FA6E2CC8EE64F2CDBB2468DACD492 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Sources/Debugging.swift; sourceTree = "<group>"; };
 		153BCFE0146A28BEF2351DCC9D4FDC20 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		1564E06CCB76A131FD22B869F320687E /* HeyLogKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HeyLogKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1564E06CCB76A131FD22B869F320687E /* HeyLogKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HeyLogKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		163B04639E5E2A508E9C76FE6E064BA0 /* JSONModel-macOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "JSONModel-macOS"; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B565E974F7BF965CA47D326F83D3F6 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Sources/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		16CFF1D4D40D828BBAC811B1BB182AB8 /* JSONModel-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-iOS-dummy.m"; sourceTree = "<group>"; };
@@ -525,7 +524,6 @@
 		191472C1358A909ED7563A8DECC6606C /* Pods-HeyLogKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeyLogKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		19180FCE4636ECB330B6EDDF6971D62D /* TransformOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOf.swift; path = Source/TransformOf.swift; sourceTree = "<group>"; };
 		1946D2A1A51318761565021EA92EDB57 /* SnapKit-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-iOS-prefix.pch"; sourceTree = "<group>"; };
-		199A543BD4B8658A22E9F51A88E1EA7A /* HeyUploadModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeyUploadModel.swift; path = HeyLogKit/Classes/OSX/HeyUploadModel.swift; sourceTree = "<group>"; };
 		1A95E8C310267AC8C08039E141F3BB90 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		1BBA5E0A49106044476BE7874E3051AF /* SwiftHTTP-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftHTTP-macOS.debug.xcconfig"; path = "../SwiftHTTP-macOS/SwiftHTTP-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		1BC790BF39C2E2A39B43C3DDBC62DAB8 /* HeyLogKit-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HeyLogKit-OSX-dummy.m"; sourceTree = "<group>"; };
@@ -543,7 +541,6 @@
 		23DE19DF919B24D02537A4072D45A491 /* Pods-HeyLogKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeyLogKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2547B10673114906FAC72B45227F7E64 /* Measuable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Measuable.swift; path = Source/Measuable.swift; sourceTree = "<group>"; };
 		27C2CD9D4A92362CA6DA6984343BAFB8 /* SwiftHTTP-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SwiftHTTP-iOS.modulemap"; sourceTree = "<group>"; };
-		280BE0B25631F292C46139EAE4FC2F60 /* HSButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSButton.swift; path = HeyLogKit/Classes/OSX/HSButton.swift; sourceTree = "<group>"; };
 		280D702EB7683BE0B46AD67731A970E6 /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
 		28ED93D69AA9572092E9C6C01708E456 /* HeyLogKit-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "HeyLogKit-iOS.debug.xcconfig"; path = "../HeyLogKit-iOS/HeyLogKit-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		28F4DE6FFE96959455516004207F80B4 /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
@@ -567,11 +564,11 @@
 		32DE9AEC60C396B37EA929C349E0D4F2 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		33843317188B6485ECC355C856D6D777 /* SwiftHTTP-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHTTP-iOS-prefix.pch"; sourceTree = "<group>"; };
 		3390E5ED13669561970518582835A770 /* SwiftHTTP-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "SwiftHTTP-iOS"; path = SwiftHTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		339DBAD8D085B53FF8F483E8546E3C77 /* OSXAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = OSXAssets.xcassets; path = HeyLogKit/Assets/OSX/OSXAssets.xcassets; sourceTree = "<group>"; };
 		33EEB1938C0B5D0BBFB731509D09B001 /* EnumTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumTransform.swift; path = Source/EnumTransform.swift; sourceTree = "<group>"; };
 		38A30DA4FAD7BB9B56DAE54524FCA7FE /* ExtendCustomModelType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtendCustomModelType.swift; path = Source/ExtendCustomModelType.swift; sourceTree = "<group>"; };
 		399F80BA8DE5DB0824B9F0AC31D5EE00 /* HexColorTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColorTransform.swift; path = Source/HexColorTransform.swift; sourceTree = "<group>"; };
 		3A1F2513EB98BD68B324B0A913536985 /* test.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = test.png; path = HeyLogKit/Assets/iOS/test.png; sourceTree = "<group>"; };
-		3AA9BAB34AC3B909D461EA0617E88CA6 /* OSXAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = OSXAssets.xcassets; path = HeyLogKit/Assets/OSX/OSXAssets.xcassets; sourceTree = "<group>"; };
 		3BEB51BF2A64B5BAEB9BE452CE0B3002 /* AFNetworking-c94d3492-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "AFNetworking-c94d3492-Info.plist"; path = "../AFNetworking-c94d3492/AFNetworking-c94d3492-Info.plist"; sourceTree = "<group>"; };
 		3C9A521CB44DA5C9BB1226625BDFDEE2 /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
 		3DCC8F2384B2C233E618AA66B5B92ABA /* JSONModel-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-iOS-prefix.pch"; sourceTree = "<group>"; };
@@ -584,8 +581,6 @@
 		41A182E4A5E273D00E40E6FBB41C5B6D /* HandyJSON-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "HandyJSON-iOS.modulemap"; sourceTree = "<group>"; };
 		4284C46D08D229CCC4FB7A9D9AF507A4 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Sources/ConstraintDescription.swift; sourceTree = "<group>"; };
 		429A09B532AC1998D80494EDCA18638C /* SwiftHTTP-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SwiftHTTP-macOS-dummy.m"; path = "../SwiftHTTP-macOS/SwiftHTTP-macOS-dummy.m"; sourceTree = "<group>"; };
-		42A25D23299A26B600CCEA11 /* UploadLogsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UploadLogsWindowController.swift; path = HeyLogKit/Classes/OSX/UploadLogsWindowController.swift; sourceTree = "<group>"; };
-		42A25D24299A26B600CCEA11 /* UploadLogsWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = UploadLogsWindowController.xib; path = HeyLogKit/Classes/OSX/UploadLogsWindowController.xib; sourceTree = "<group>"; };
 		43C359D4B318F71CAB59F0790193C86D /* HeyLogKit-OSX-HeyLogKit */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "HeyLogKit-OSX-HeyLogKit"; path = HeyLogKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		453F9907F15188D7CCF786CE323349CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4843A787EFF7ED8DB6C6793AFF0FA34F /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -603,6 +598,7 @@
 		536EF4C42695AC40E83045917A08D921 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Sources/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		53B2DD15D85AF3F363AD71F43242A38A /* Pods-HeyLogKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeyLogKit_Example-dummy.m"; sourceTree = "<group>"; };
 		547E93C1A0F359698CF4251C79F8D6FA /* AFNetworking-c94d3492-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AFNetworking-c94d3492-prefix.pch"; path = "../AFNetworking-c94d3492/AFNetworking-c94d3492-prefix.pch"; sourceTree = "<group>"; };
+		564781445521AD87B7DC4E96EE4771C8 /* HUDGifView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUDGifView.swift; path = HeyLogKit/Classes/OSX/HUDGifView.swift; sourceTree = "<group>"; };
 		5696221E041B32CF1A6E74B8FAAE3892 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Sources/ConstraintInsets.swift; sourceTree = "<group>"; };
 		57AB87A9BED27E1190B1D35CD3135E10 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Sources/LayoutConstraint.swift; sourceTree = "<group>"; };
 		57FC4E2B20461B6FF0982EE1336B074A /* HeyLogKit-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "HeyLogKit-iOS-Info.plist"; path = "../HeyLogKit-iOS/HeyLogKit-iOS-Info.plist"; sourceTree = "<group>"; };
@@ -619,6 +615,7 @@
 		62BB9DB28E75B63462D7190454757B7B /* Pods-HeyLogKit_MacDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeyLogKit_MacDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6357EB8DB4CBB03A8228EF5698244725 /* Pods-HeyLogKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeyLogKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		638DAE21DAFACD9659A718CC850AD211 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		638FB351FCC1ADB867A73D63DC1E0DF5 /* HeyUploadManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeyUploadManager.swift; path = HeyLogKit/Classes/OSX/HeyUploadManager.swift; sourceTree = "<group>"; };
 		63D7A0D06F9E2D4791909E10A239ED98 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Source/Configuration.swift; sourceTree = "<group>"; };
 		63E49D374BD9F95045AEF453D74F1CDC /* HeyLogKit-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HeyLogKit-iOS-umbrella.h"; path = "../HeyLogKit-iOS/HeyLogKit-iOS-umbrella.h"; sourceTree = "<group>"; };
 		6406B07648BCFB1DA45427420196CB02 /* HeyUploadBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeyUploadBaseView.swift; path = HeyLogKit/Classes/iOS/HeyUploadBaseView.swift; sourceTree = "<group>"; };
@@ -628,7 +625,7 @@
 		6A7FC923388BE7045390107291FDF95C /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Sources/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		6AF4C08C00590C96ECB63EC2A1B6B357 /* Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Properties.swift; path = Source/Properties.swift; sourceTree = "<group>"; };
 		6B5C057FA7ED3789A1AC0A4B1EB51F54 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
-		6CCD3889FE3F221DD155352427223F2A /* HUDMaskView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUDMaskView.swift; path = HeyLogKit/Classes/OSX/HUDMaskView.swift; sourceTree = "<group>"; };
+		6C8BD0D346F6D05CE72647EAB12B7AF0 /* HSButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSButton.swift; path = HeyLogKit/Classes/OSX/HSButton.swift; sourceTree = "<group>"; };
 		6EEDF191E7D6D81713C7765D61060016 /* StatusCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatusCode.swift; path = Source/StatusCode.swift; sourceTree = "<group>"; };
 		70E2D8F7140625D5DC7109F253B57BD2 /* HandyJSON-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "HandyJSON-macOS.modulemap"; path = "../HandyJSON-macOS/HandyJSON-macOS.modulemap"; sourceTree = "<group>"; };
 		70F628CC8B3E4911F8D897D2900036E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -637,11 +634,11 @@
 		73EF9467A9E6671F45C4C3843EEAF04A /* Pods-HeyLogKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HeyLogKit_Tests.modulemap"; sourceTree = "<group>"; };
 		74308DF0887F0D8FCDB553944AA9E4F0 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		746A3AEBB4C9612BF96F3BA025AEB609 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		74C0ABCDD095C1F03079174119613178 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HeyLogKit/Classes/OSX/ReplaceMe.swift; sourceTree = "<group>"; };
 		757813F62A930F9021D86593350B52A4 /* SnapKit-macOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "SnapKit-macOS"; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		765382E82CFA50AE0F6E22DF506F490E /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Sources/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		7688453DF0388E4EBE9CB3CC8240282E /* Metadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Metadata.swift; path = Source/Metadata.swift; sourceTree = "<group>"; };
-		7720AAD51BAD0B6AB2FD4FDA609703B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7720AAD51BAD0B6AB2FD4FDA609703B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		779351826A748FFC40ECBBAAD2B56492 /* UploadLogsWindowController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UploadLogsWindowController.swift; path = HeyLogKit/Classes/OSX/UploadLogsWindowController.swift; sourceTree = "<group>"; };
 		7875F8B37D15F1C7931B6A110FD2CB00 /* HelpingMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HelpingMapper.swift; path = Source/HelpingMapper.swift; sourceTree = "<group>"; };
 		79E0C91B60BC94A79E14A0FDB64C91DA /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		7A50CF6A35B1FBDB32AEF2CC8761B916 /* HeyLogKit-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "HeyLogKit-iOS.release.xcconfig"; path = "../HeyLogKit-iOS/HeyLogKit-iOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -666,6 +663,7 @@
 		8FA4B8FECB90D5FC3DE6A16C06891CC1 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
 		8FCE66BF6A044F8ADD98E33F57B9B3B9 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		904437EB4835BABA7A4DC806864BD3A6 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		907AF7116CCEE586F076DBF33D26235F /* HeyUploadModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeyUploadModel.swift; path = HeyLogKit/Classes/OSX/HeyUploadModel.swift; sourceTree = "<group>"; };
 		90B4DDD3EB14A86BB5F4A071EB18BDBF /* SwiftHTTP-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftHTTP-macOS.release.xcconfig"; path = "../SwiftHTTP-macOS/SwiftHTTP-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		91C97A573B8A155A804B14BAE80A7021 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Sources/ConstraintItem.swift; sourceTree = "<group>"; };
 		92F862599AF1B3379111C2CA65E297E0 /* HeyUPloadSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeyUPloadSetting.swift; path = HeyLogKit/Classes/iOS/HeyUPloadSetting.swift; sourceTree = "<group>"; };
@@ -688,7 +686,7 @@
 		9B1060D1DAA0765742C3EA4268306D6B /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
 		9B79292DC29B05349AD7DEB4966F5422 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
 		9CCB0C0EF950E81733A8361CD0F2A451 /* SnapKit-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-iOS-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DBABB5DA216DA0D44C6814B055E02BD /* JSONModel-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-iOS-umbrella.h"; sourceTree = "<group>"; };
 		A0100167540A8CD895899FC5E3BB0A07 /* SwiftHTTP-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHTTP-iOS-umbrella.h"; sourceTree = "<group>"; };
 		A0DD4D0B34B0F2BDB64896EF8CAEFCC4 /* Pods-HeyLogKit_MacDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeyLogKit_MacDemo-Info.plist"; sourceTree = "<group>"; };
@@ -696,12 +694,12 @@
 		A1A11BCE92D9A03DA295A059C2D5D08B /* SnapKit-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SnapKit-macOS.release.xcconfig"; path = "../SnapKit-macOS/SnapKit-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		A23DD6D9EDA5E49FD3D2960E439A5FCB /* Pods-HeyLogKit_MacDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HeyLogKit_MacDemo.modulemap"; sourceTree = "<group>"; };
 		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E96EBD7F7A75C214DF839203D70984 /* HUDMaskView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUDMaskView.swift; path = HeyLogKit/Classes/OSX/HUDMaskView.swift; sourceTree = "<group>"; };
 		A678A5FCC949EF5D7061887F11B1C2D2 /* SnapKit-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SnapKit-iOS.modulemap"; sourceTree = "<group>"; };
 		A7581D6B2E6FB739724070F3AE11393D /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
 		AA1FD8949BC280F010636EC92225D3A7 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
 		AF70600DD97F402D03DFED66A667B363 /* HandyJSON-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "HandyJSON-iOS"; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9BC3FA56A764A463C58920A9E2ABF1 /* Operation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operation.swift; path = Source/Operation.swift; sourceTree = "<group>"; };
-		B0B94D3F4F3753D16A539BF6272F00B0 /* loading.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = loading.gif; path = HeyLogKit/Assets/OSX/loading.gif; sourceTree = "<group>"; };
 		B0BF318B8E397041FE58A8D5E6D977A5 /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
 		B26F4A9FBDC2EC32218CC3EB74B5FD0C /* Pods-HeyLogKit_MacDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HeyLogKit_MacDemo"; path = Pods_HeyLogKit_MacDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E6623CACBEEE6A9ACEEAC62D381680 /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
@@ -711,17 +709,16 @@
 		B92AA9369D8D94A899E0A8B969FDE54E /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		B9A8DD2F67F8CC0AB6755EB37EF3CF63 /* EnumType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumType.swift; path = Source/EnumType.swift; sourceTree = "<group>"; };
 		BB1D19314C66EDDFD695081ECF34AA25 /* SwiftHTTP-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftHTTP-macOS-umbrella.h"; path = "../SwiftHTTP-macOS/SwiftHTTP-macOS-umbrella.h"; sourceTree = "<group>"; };
-		BB48B1E2740037F84061C33788722F75 /* HeyUPloadSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeyUPloadSetting.swift; path = HeyLogKit/Classes/OSX/HeyUPloadSetting.swift; sourceTree = "<group>"; };
 		BC6E9A06092FA13A55B84F114245878E /* ResourceBundle-HeyLogKit-HeyLogKit-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ResourceBundle-HeyLogKit-HeyLogKit-iOS-Info.plist"; path = "../HeyLogKit-iOS/ResourceBundle-HeyLogKit-HeyLogKit-iOS-Info.plist"; sourceTree = "<group>"; };
-		BC96A6F50A53040A9434F4ED635D7C99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BC96A6F50A53040A9434F4ED635D7C99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BD6BEF768DD4AB6D71C5A3A0AE699925 /* AFNetworking-c94d3492-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AFNetworking-c94d3492-dummy.m"; path = "../AFNetworking-c94d3492/AFNetworking-c94d3492-dummy.m"; sourceTree = "<group>"; };
+		BE458333A99990088C77191CA7745D4F /* UploadLogsWindowController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UploadLogsWindowController.xib; path = HeyLogKit/Classes/OSX/UploadLogsWindowController.xib; sourceTree = "<group>"; };
 		BF0D07BDFBE1D26EE2D63D90616D05B2 /* HeyLogKit-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeyLogKit-OSX-prefix.pch"; sourceTree = "<group>"; };
 		BF270753E2E2BC17E96F97579A0F29E3 /* ContextDescriptorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContextDescriptorType.swift; path = Source/ContextDescriptorType.swift; sourceTree = "<group>"; };
 		BF670D58DE26D6DCD88D29E229EA90B8 /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
 		C01EFA0944C9F6A9AD97895B4911A975 /* Pods-HeyLogKit_MacDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeyLogKit_MacDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C40A42019813CFD90E846CCEA2E88E7A /* WKWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+AFNetworking.h"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		C69999869B62AB42F0CC3D4F9B8F398A /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		C739361A5D26DBC3492F683D74B8CE2D /* HeyUploadManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeyUploadManager.swift; path = HeyLogKit/Classes/OSX/HeyUploadManager.swift; sourceTree = "<group>"; };
 		C75147A6028112E1CE69C1FCE655B5C6 /* ReflectionHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReflectionHelper.swift; path = Source/ReflectionHelper.swift; sourceTree = "<group>"; };
 		CBC5917F009110595E16B12EBEF7F8E5 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Sources/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		CD0365EFBD3C88B39EAC2330D1C7631F /* URLTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLTransform.swift; path = Source/URLTransform.swift; sourceTree = "<group>"; };
@@ -750,9 +747,11 @@
 		E0E08DB8A3380CA039585BD21F861B18 /* Pods-HeyLogKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeyLogKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E1263CD3EDB5A0B8F22F280D5362EC2B /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Source/Logger.swift; sourceTree = "<group>"; };
 		E2A3EE1E08CCCBB1BBB31FD0093DFF2C /* Pods-HeyLogKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeyLogKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E2C3CB4491E1309E3D07919FA01B6373 /* loading.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = loading.gif; path = HeyLogKit/Assets/OSX/loading.gif; sourceTree = "<group>"; };
 		E3FCAEB686047B7CD9A9C0BA024CBAF8 /* HandyJSON-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "HandyJSON-macOS.debug.xcconfig"; path = "../HandyJSON-macOS/HandyJSON-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		E458A8755F138517A47E370834720F94 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		E557CAC4BA6F9E03F7EC1A8429C6E09F /* HeyUploadView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeyUploadView.swift; path = HeyLogKit/Classes/iOS/HeyUploadView.swift; sourceTree = "<group>"; };
+		E5A8661896CD202BA762F5494D03ABCB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HeyLogKit/Classes/OSX/ReplaceMe.swift; sourceTree = "<group>"; };
 		E5AF010A0D93D5F22008D99A06EEAC1F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		E75DC6F393B961FE0A6160F94ADE8489 /* ExtendCustomBasicType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtendCustomBasicType.swift; path = Source/ExtendCustomBasicType.swift; sourceTree = "<group>"; };
 		E8B4B38A094FFB54BD24DC2BAB99ECA3 /* HeyUploadWaitingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeyUploadWaitingView.swift; path = HeyLogKit/Classes/iOS/HeyUploadWaitingView.swift; sourceTree = "<group>"; };
@@ -774,6 +773,7 @@
 		F62F101AB1BDEB2FA252CF35D052E73A /* JSONModel-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "JSONModel-macOS.modulemap"; path = "../JSONModel-macOS/JSONModel-macOS.modulemap"; sourceTree = "<group>"; };
 		F710F0542492E2E9FBF37E3236727CE4 /* SnapKit-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-iOS-dummy.m"; sourceTree = "<group>"; };
 		F823999A3448440A9C69D75D729C4DCC /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		F8684E4A8DD6AF28E47FEE80283B7F87 /* HeyUPloadSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeyUPloadSetting.swift; path = HeyLogKit/Classes/OSX/HeyUPloadSetting.swift; sourceTree = "<group>"; };
 		FA5B381B2F1425242F71EDE370E52699 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Sources/Constraint.swift; sourceTree = "<group>"; };
 		FB940E3D44D4E553110B17923F103AB8 /* Pods-HeyLogKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HeyLogKit_Example.modulemap"; sourceTree = "<group>"; };
 		FBCB8E51D03CB3DA7E9F6DEDAC3EB416 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
@@ -996,6 +996,7 @@
 				03BD44FCC49A9784955E77376DB761E5 /* UILayoutSupport+Extensions.swift */,
 				742491023979787FDAB6AA28E1A3798C /* Support Files */,
 			);
+			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -1021,6 +1022,7 @@
 				EFCA8BCF294851DFA28F1E6C7C897649 /* JSONValueTransformer.m */,
 				7C3128EF5D9D8B5D31B738C83DEE57A5 /* Support Files */,
 			);
+			name = JSONModel;
 			path = JSONModel;
 			sourceTree = "<group>";
 		};
@@ -1071,6 +1073,7 @@
 				E275A68E882C1DBB2D1AF843D6381FCC /* Support Files */,
 				A4189E3B4E4EA68666BC32A307187814 /* UIKit */,
 			);
+			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -1122,20 +1125,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		47B587639AF584C1C3FE31AABF82D7E4 /* OSX */ = {
+		4420A01554B11FAD597D9391C9363332 /* OSX */ = {
 			isa = PBXGroup;
 			children = (
-				C739361A5D26DBC3492F683D74B8CE2D /* HeyUploadManager.swift */,
-				199A543BD4B8658A22E9F51A88E1EA7A /* HeyUploadModel.swift */,
-				BB48B1E2740037F84061C33788722F75 /* HeyUPloadSetting.swift */,
-				280BE0B25631F292C46139EAE4FC2F60 /* HSButton.swift */,
-				0C4A54691D5424920EEABAB388A4550F /* HUDGifView.swift */,
-				6CCD3889FE3F221DD155352427223F2A /* HUDMaskView.swift */,
-				B0B94D3F4F3753D16A539BF6272F00B0 /* loading.gif */,
-				3AA9BAB34AC3B909D461EA0617E88CA6 /* OSXAssets.xcassets */,
-				74C0ABCDD095C1F03079174119613178 /* ReplaceMe.swift */,
-				42A25D23299A26B600CCEA11 /* UploadLogsWindowController.swift */,
-				42A25D24299A26B600CCEA11 /* UploadLogsWindowController.xib */,
+				638FB351FCC1ADB867A73D63DC1E0DF5 /* HeyUploadManager.swift */,
+				907AF7116CCEE586F076DBF33D26235F /* HeyUploadModel.swift */,
+				F8684E4A8DD6AF28E47FEE80283B7F87 /* HeyUPloadSetting.swift */,
+				6C8BD0D346F6D05CE72647EAB12B7AF0 /* HSButton.swift */,
+				564781445521AD87B7DC4E96EE4771C8 /* HUDGifView.swift */,
+				A5E96EBD7F7A75C214DF839203D70984 /* HUDMaskView.swift */,
+				E2C3CB4491E1309E3D07919FA01B6373 /* loading.gif */,
+				339DBAD8D085B53FF8F483E8546E3C77 /* OSXAssets.xcassets */,
+				E5A8661896CD202BA762F5494D03ABCB /* ReplaceMe.swift */,
+				779351826A748FFC40ECBBAAD2B56492 /* UploadLogsWindowController.swift */,
+				BE458333A99990088C77191CA7745D4F /* UploadLogsWindowController.xib */,
 			);
 			name = OSX;
 			sourceTree = "<group>";
@@ -1160,7 +1163,7 @@
 			isa = PBXGroup;
 			children = (
 				C3FF02BCBEDF54780FFDF148D8935E48 /* iOS */,
-				47B587639AF584C1C3FE31AABF82D7E4 /* OSX */,
+				4420A01554B11FAD597D9391C9363332 /* OSX */,
 				0F363ABB1D98B6041B9559E86C540B44 /* Pod */,
 				08BA6DD5F2C081FE8811D002409455A4 /* Support Files */,
 			);
@@ -1178,6 +1181,7 @@
 				904437EB4835BABA7A4DC806864BD3A6 /* Upload.swift */,
 				EEA0CCDAC924C969C2FAD8FB024B8BF5 /* Support Files */,
 			);
+			name = SwiftHTTP;
 			path = SwiftHTTP;
 			sourceTree = "<group>";
 		};
@@ -1222,6 +1226,7 @@
 				CD0365EFBD3C88B39EAC2330D1C7631F /* URLTransform.swift */,
 				C7B7062855FC8BD855022E25C895D5A3 /* Support Files */,
 			);
+			name = HandyJSON;
 			path = HandyJSON;
 			sourceTree = "<group>";
 		};
@@ -1829,7 +1834,7 @@
 			buildConfigurationList = E47BAAA959F8DCAAA99C209955DD7AC8 /* Build configuration list for PBXNativeTarget "HeyLogKit-OSX" */;
 			buildPhases = (
 				688331EFA5CBA5AB0836D575A0231472 /* Headers */,
-				4DFDDC73F09B5C1ED9C964075B3598EA /* Sources */,
+				CD28B61781DA71C2FB2FEB5D62DD0FAF /* Sources */,
 				675A19DB01A3BB1F86435F0F37C7D03C /* Frameworks */,
 				396BD326DC713A49AC0E98CE7D122AEF /* Resources */,
 			);
@@ -2037,7 +2042,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				302E0823E588429341B25D4941CAE521 /* HeyLogKit-OSX-HeyLogKit in Resources */,
-				42A25D26299A26B600CCEA11 /* UploadLogsWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2204,22 +2208,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CDBBE0E6218DBC49B54FE6BE0C8CFD1 /* Pods-HeyLogKit_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DFDDC73F09B5C1ED9C964075B3598EA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CF406D8539BEED9D2262097FB909923 /* HeyLogKit-OSX-dummy.m in Sources */,
-				D6DF1B3B81534D6E76D380BA95D52DD2 /* HeyUploadManager.swift in Sources */,
-				6BD370A694972EC510DC3129B0EF45F9 /* HeyUploadModel.swift in Sources */,
-				3E14F22813F32D6113B560DA8A9EC27A /* HeyUPloadSetting.swift in Sources */,
-				812BA03914B905B74CA526CDB03334C7 /* HSButton.swift in Sources */,
-				A4AA2E35E5EE69CB0E25C40C47B781BA /* HUDGifView.swift in Sources */,
-				622A2D714EB855AF50B78410BC4169AF /* HUDMaskView.swift in Sources */,
-				728C6279FD8CD036F77BE7518978E87F /* ReplaceMe.swift in Sources */,
-				42A25D25299A26B600CCEA11 /* UploadLogsWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2428,6 +2416,23 @@
 				6C239323DE74D9551EB571A31A24EC1E /* UIProgressView+AFNetworking.m in Sources */,
 				AC29EE5318026D0BAF479C904536378F /* UIRefreshControl+AFNetworking.m in Sources */,
 				657D596F7ED1260403D4E064E6BF8CD1 /* WKWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD28B61781DA71C2FB2FEB5D62DD0FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34B417070DC9BDBA402501D379FB997 /* HeyLogKit-OSX-dummy.m in Sources */,
+				F8286B38862AFD7C27DC8FB4E6FE8FF7 /* HeyUploadManager.swift in Sources */,
+				A0564A734BD68DD2CF7724D1DC69D79A /* HeyUploadModel.swift in Sources */,
+				4BC74C192D6E7DD0676B21EF86E3219A /* HeyUPloadSetting.swift in Sources */,
+				D61B24E60432E695E27142E37855E99A /* HSButton.swift in Sources */,
+				CED245C6BD14BA2D1F0E30B129EE5565 /* HUDGifView.swift in Sources */,
+				397331E019F7664ADABADAAC5B9E7F02 /* HUDMaskView.swift in Sources */,
+				03762C477E247F05BD47461334181864 /* ReplaceMe.swift in Sources */,
+				A03D0DC45407E3F89B4D9A81F5552655 /* UploadLogsWindowController.swift in Sources */,
+				91C2ED7E66B7AF47C04AA931C520158A /* UploadLogsWindowController.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3288,7 +3293,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
