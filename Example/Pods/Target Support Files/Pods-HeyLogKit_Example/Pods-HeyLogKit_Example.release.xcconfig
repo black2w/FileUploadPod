@@ -1,11 +1,11 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/HandyJSON" "${PODS_CONFIGURATION_BUILD_DIR}/HeyLogKit" "${PODS_CONFIGURATION_BUILD_DIR}/JSONModel" "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftHTTP"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/HandyJSON-iOS" "${PODS_CONFIGURATION_BUILD_DIR}/HeyLogKit-iOS" "${PODS_CONFIGURATION_BUILD_DIR}/JSONModel-iOS" "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit-iOS" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftHTTP-iOS"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/HandyJSON/HandyJSON.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/HeyLogKit/HeyLogKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/JSONModel/JSONModel.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftHTTP/SwiftHTTP.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/HandyJSON-iOS/HandyJSON.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/HeyLogKit-iOS/HeyLogKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/JSONModel-iOS/JSONModel.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit-iOS/SnapKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftHTTP-iOS/SwiftHTTP.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) /usr/lib/swift '@executable_path/Frameworks' '@loader_path/Frameworks'
 LIBRARY_SEARCH_PATHS = $(inherited) "${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
-OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "HandyJSON" -framework "HeyLogKit" -framework "JSONModel" -framework "SnapKit" -framework "SwiftHTTP"
+OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "HandyJSON" -framework "HeyLogKit" -framework "JSONModel" -framework "SnapKit" -framework "SwiftHTTP" -framework "UIKit"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

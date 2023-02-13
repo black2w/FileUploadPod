@@ -15,10 +15,6 @@
     "git": "https://github.com/black2w/HeyLogKit.git",
     "tag": "0.1.0"
   },
-  "platforms": {
-    "ios": "10.0"
-  },
-  "source_files": "HeyLogKit/Classes/**/*",
   "resource_bundles": {
     "HeyLogKit": [
       "HeyLogKit/Assets/*.png",
@@ -41,5 +37,70 @@
     "SnapKit": [
 
     ]
-  }
+  },
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  },
+  "subspecs": [
+    {
+      "name": "iOS",
+      "platforms": {
+        "ios": "13.0"
+      },
+      "ios": {
+        "frameworks": "UIKit"
+      },
+      "source_files": "HeyLogKit/Classes/iOS/*",
+      "dependencies": {
+        "AFNetworking": [
+
+        ],
+        "JSONModel": [
+
+        ],
+        "SwiftHTTP": [
+
+        ],
+        "HandyJSON": [
+
+        ],
+        "SnapKit": [
+
+        ]
+      }
+    },
+    {
+      "name": "OSX",
+      "platforms": {
+        "osx": "11.0"
+      },
+      "osx": {
+        "frameworks": [
+          "AppKit",
+          "Cocoa"
+        ]
+      },
+      "source_files": "HeyLogKit/Classes/OSX/*",
+      "dependencies": {
+        "AFNetworking": [
+
+        ],
+        "JSONModel": [
+
+        ],
+        "SwiftHTTP": [
+
+        ],
+        "HandyJSON": [
+
+        ],
+        "SnapKit": [
+
+        ]
+      }
+    }
+  ]
 }

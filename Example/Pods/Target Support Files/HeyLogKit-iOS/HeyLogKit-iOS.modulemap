@@ -1,0 +1,6 @@
+framework module HeyLogKit {
+  umbrella header "HeyLogKit-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

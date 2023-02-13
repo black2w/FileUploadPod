@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment version="101000" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe" customClass="UploadLogsView" customModule="HeyLogKit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="330" height="230"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <box boxType="custom" borderType="none" borderWidth="0.0" cornerRadius="6" translatesAutoresizingMaskIntoConstraints="NO" id="EOH-hr-E2g">
+                    <rect key="frame" x="0.0" y="0.0" width="330" height="230"/>
+                    <view key="contentView" id="Srt-m2-f5h">
+                        <rect key="frame" x="0.0" y="0.0" width="330" height="230"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <box boxType="custom" borderType="none" borderWidth="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="ffv-tQ-TbS">
+                                <rect key="frame" x="0.0" y="192" width="330" height="1"/>
+                                <view key="contentView" id="FWn-rL-zYv">
+                                    <rect key="frame" x="0.0" y="0.0" width="330" height="1"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="gqL-Pn-Uga"/>
+                                </constraints>
+                                <color key="fillColor" red="0.0" green="0.0" blue="0.0" alpha="0.059999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                            </box>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="krs-VK-lYd" customClass="HSButton" customModule="HeyLogKit" customModuleProvider="target">
+                                <rect key="frame" x="113" y="20" width="104" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="85e-XL-JdY"/>
+                                    <constraint firstAttribute="height" constant="32" id="g7q-pX-6LQ"/>
+                                </constraints>
+                                <buttonCell key="cell" type="bevel" title="取消" bezelStyle="rounded" image="button_bg_nor" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="94R-JX-CPz">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="systemMedium" size="14"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="onClickCancelAction:" target="c22-O7-iKe" id="okR-ia-RRa"/>
+                                </connections>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="BA5-K2-qsM">
+                                <rect key="frame" x="127" y="72" width="76" height="17"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="日志上传中" id="bJy-iU-aBG">
+                                    <font key="font" metaFont="system" size="14"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.65000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="z4f-de-wLt">
+                                <rect key="frame" x="134" y="203" width="62" height="17"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="日志上传" id="nV3-dT-nRc">
+                                    <font key="font" metaFont="systemBold" size="14"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="XLR-QC-tuq" customClass="HUDGifView" customModule="HeyLogKit" customModuleProvider="target">
+                                <rect key="frame" x="143" y="123" width="45" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="3il-pK-RjZ"/>
+                                    <constraint firstAttribute="width" secondItem="XLR-QC-tuq" secondAttribute="height" multiplier="1:1" id="7pJ-lK-yHs"/>
+                                </constraints>
+                            </customView>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0lC-xf-R9l">
+                                <rect key="frame" x="152" y="101" width="27" height="17"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="0%" id="fRr-cE-awT">
+                                    <font key="font" metaFont="systemMedium" size="14"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.65000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="XLR-QC-tuq" firstAttribute="centerX" secondItem="Srt-m2-f5h" secondAttribute="centerX" id="19E-58-IhQ"/>
+                            <constraint firstItem="0lC-xf-R9l" firstAttribute="top" secondItem="XLR-QC-tuq" secondAttribute="bottom" constant="5" id="3EX-UV-DYC"/>
+                            <constraint firstItem="krs-VK-lYd" firstAttribute="centerX" secondItem="Srt-m2-f5h" secondAttribute="centerX" id="3SJ-So-yxD"/>
+                            <constraint firstItem="krs-VK-lYd" firstAttribute="top" secondItem="BA5-K2-qsM" secondAttribute="bottom" constant="20" id="3Ut-se-EjG"/>
+                            <constraint firstItem="z4f-de-wLt" firstAttribute="centerX" secondItem="Srt-m2-f5h" secondAttribute="centerX" id="5QE-JZ-8nS"/>
+                            <constraint firstItem="ffv-tQ-TbS" firstAttribute="leading" secondItem="Srt-m2-f5h" secondAttribute="leading" id="8P2-px-btI"/>
+                            <constraint firstItem="ffv-tQ-TbS" firstAttribute="top" secondItem="Srt-m2-f5h" secondAttribute="top" constant="37" id="Bvc-5u-zec"/>
+                            <constraint firstItem="XLR-QC-tuq" firstAttribute="top" secondItem="ffv-tQ-TbS" secondAttribute="bottom" constant="24" id="GAK-HQ-5O3"/>
+                            <constraint firstAttribute="bottom" secondItem="krs-VK-lYd" secondAttribute="bottom" constant="20" id="IzS-mW-g4G"/>
+                            <constraint firstItem="0lC-xf-R9l" firstAttribute="centerX" secondItem="Srt-m2-f5h" secondAttribute="centerX" id="MjE-Gq-Dqg"/>
+                            <constraint firstAttribute="trailing" secondItem="ffv-tQ-TbS" secondAttribute="trailing" id="cEO-fq-46v"/>
+                            <constraint firstItem="BA5-K2-qsM" firstAttribute="centerX" secondItem="Srt-m2-f5h" secondAttribute="centerX" id="fLo-GF-iY2"/>
+                            <constraint firstItem="z4f-de-wLt" firstAttribute="top" secondItem="Srt-m2-f5h" secondAttribute="top" constant="10" id="jl8-FE-w3c"/>
+                        </constraints>
+                    </view>
+                    <color key="fillColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </box>
+            </subviews>
+            <constraints>
+                <constraint firstItem="EOH-hr-E2g" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="2p7-ys-zsR"/>
+                <constraint firstAttribute="bottom" secondItem="EOH-hr-E2g" secondAttribute="bottom" id="5CJ-oB-HEA"/>
+                <constraint firstItem="EOH-hr-E2g" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="GmI-h8-aBn"/>
+                <constraint firstAttribute="trailing" secondItem="EOH-hr-E2g" secondAttribute="trailing" id="gsN-m8-1s9"/>
+            </constraints>
+            <connections>
+                <outlet property="cancelButton" destination="krs-VK-lYd" id="Iwe-Bu-Z0E"/>
+                <outlet property="loadingView" destination="XLR-QC-tuq" id="Grg-tr-2a2"/>
+                <outlet property="progressLbl" destination="0lC-xf-R9l" id="fiG-Ns-BR5"/>
+                <outlet property="textLbl" destination="BA5-K2-qsM" id="Qcb-OQ-Ehy"/>
+                <outlet property="titleLbl" destination="z4f-de-wLt" id="g8m-EM-vbT"/>
+            </connections>
+            <point key="canvasLocation" x="149" y="6"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="button_bg_nor" width="325" height="44"/>
+    </resources>
+</document>

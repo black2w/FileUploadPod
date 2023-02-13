@@ -1,6 +1,0 @@
-framework module HeyLogKit {
-  umbrella header "HeyLogKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

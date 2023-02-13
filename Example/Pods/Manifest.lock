@@ -15,7 +15,13 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - HandyJSON (5.0.2)
-  - HeyLogKit (0.1.0):
+  - HeyLogKit/iOS (0.1.0):
+    - AFNetworking
+    - HandyJSON
+    - JSONModel
+    - SnapKit
+    - SwiftHTTP
+  - HeyLogKit/OSX (0.1.0):
     - AFNetworking
     - HandyJSON
     - JSONModel
@@ -26,7 +32,8 @@ PODS:
   - SwiftHTTP (3.0.1)
 
 DEPENDENCIES:
-  - HeyLogKit (from `../`)
+  - HeyLogKit/iOS (from `../`)
+  - HeyLogKit/OSX (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -43,11 +50,11 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
-  HeyLogKit: d3ccf2836d5bc9ddd5674983648b84a3c3d2bea8
+  HeyLogKit: ee33ac2829af487ae183405cc4a16c2cd4073404
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SwiftHTTP: e94f1aa8cde58637dcc0100f6349de31a3337fde
 
-PODFILE CHECKSUM: 03b8608346ba57bbb775ebed7b91af9ef361b27b
+PODFILE CHECKSUM: 0467033ca62523898dd09c0081a2d7e5be5f68e4
 
 COCOAPODS: 1.11.3

@@ -177,19 +177,19 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HeyLogKit/HeyLogKit.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SwiftHTTP/SwiftHTTP.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HandyJSON-iOS/HandyJSON.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HeyLogKit-iOS/HeyLogKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/JSONModel-iOS/JSONModel.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit-iOS/SnapKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftHTTP-iOS/SwiftHTTP.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HeyLogKit/HeyLogKit.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SwiftHTTP/SwiftHTTP.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HandyJSON-iOS/HandyJSON.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HeyLogKit-iOS/HeyLogKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/JSONModel-iOS/JSONModel.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit-iOS/SnapKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftHTTP-iOS/SwiftHTTP.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

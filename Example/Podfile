@@ -1,17 +1,19 @@
 use_frameworks!
 
-platform :ios, '10.0'
 
 target 'HeyLogKit_Example' do
-  pod 'HeyLogKit', :path => '../'
-  
-  target 'HeyLogKit_MacDemo' do
-    pod 'HeyLogKit', :path => '../'
-  end
-
-  target 'HeyLogKit_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  platform :ios, '13.0'
+  pod 'HeyLogKit/iOS', :path => '../'
 end
+
+
+target 'HeyLogKit_MacDemo' do
+  platform :osx, '11.0'
+  pod 'HeyLogKit/OSX', :path => '../'
+end
+
+
+target 'HeyLogKit_Tests' do
+  inherit! :search_paths
+end
+

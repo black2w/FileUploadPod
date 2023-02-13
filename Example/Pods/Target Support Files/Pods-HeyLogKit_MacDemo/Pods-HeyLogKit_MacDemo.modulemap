@@ -1,0 +1,6 @@
+framework module Pods_HeyLogKit_MacDemo {
+  umbrella header "Pods-HeyLogKit_MacDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
