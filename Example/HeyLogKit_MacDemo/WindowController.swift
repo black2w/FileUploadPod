@@ -14,7 +14,9 @@ class WindowController: NSWindowController {
     override func windowDidLoad() {
         super.windowDidLoad()
 
-        testUploadLog()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            self.testUploadLog()
+        }
     }
     
     func testUploadLog() -> Void {
@@ -25,13 +27,12 @@ class WindowController: NSWindowController {
     }
     
     func copyFileToDoucment() -> String {
-//        let filePath = Bundle.main.path(forResource: "2023", ofType: "zip")!
-        if #available(macOS 13.0, *) {
-            let sourceUrl = URL(filePath: Bundle.main.path(forResource: "2023", ofType: "zip")!)
-            let documentsURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
+        let filePath = "file://" + Bundle.main.path(forResource: "2023", ofType: "zip")!
+        let sourceUrl = URL(string: filePath)!
+
+        let documentsURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
             if let documentsURL = documentsURL {
                 let destURL = documentsURL.appendingPathComponent("2023.zip")
-                
                 do { try FileManager.default.copyItem(at: sourceUrl, to: destURL) } catch { error
                     print("copy error")
                 }
@@ -39,10 +40,6 @@ class WindowController: NSWindowController {
             } else {
                 return ""
             }
-        } else {
-            // Fallback on earlier versions
-            return ""
-        }
     }
 }
 

@@ -62,84 +62,6 @@ import HandyJSON
         let upModel = HeyUploadRequestModel()
         upModel.filePath = self.settings.filePath
         
-//        let req = URLRequest(urlString: self.settings.uploadUrl, parameters: ["file": Upload(fileUrl: URL(string: self.settings.filePath)!)])
-//        let task = HTTP(req!)
-//        task.progress = { percent in
-//            print("###HeyUpload### HTTP Upload Progress: \(percent)")
-//            progress(percent*100, task)
-//            self.delegate.uploadProgress?(progress: percent)
-//        }
-//
-//        task.run{ response in
-//            if let error = response.error {
-//                print("###HeyUpload### HTTP POST ERROR: \(error)")
-//                self.delegate.uploadResult?(result: .UPloadResult_Failure)
-//                return
-//            }
-//
-//            let resModel = JSONDeserializer<HeyUploadResonseModel>.deserializeFrom(json: response.text)
-//            if let rp = resModel {
-//                if rp.isSucessFull() {
-//                    operaton(true)
-//                    self.delegate.uploadResult?(result: .UPloadResult_Success)
-//                } else {
-//                    operaton(false)
-//                    self.delegate.uploadResult?(result: .UPloadResult_Failure)
-//                }
-//            } else {
-//                operaton(false)
-//                self.delegate.uploadResult?(result: .UPloadResult_Failure)
-//            }
-//        }
-//
-//
-//        return task
-        
-        
-        
-        
-//        let opt = HTTP.POST(self.settings.uploadUrl, parameters: ["file": Upload(fileUrl: URL(string: self.settings.filePath)!)])
-//        if let op = opt {
-//            op.progress = { percent in
-//                print("###HeyUpload### HTTP Upload Progress: \(percent)")
-//                progress(percent*100, op)
-//                self.delegate.uploadProgress?(progress: percent)
-//            }
-//
-//            op.run{ response in
-//                if let error = response.error {
-//                    print("###HeyUpload### HTTP POST ERROR: \(error)")
-//                    self.delegate.uploadResult?(result: .UPloadResult_Failure)
-//                    return
-//                }
-//
-//                let resModel = JSONDeserializer<HeyUploadResonseModel>.deserializeFrom(json: response.text)
-//                if let rp = resModel {
-//                    if rp.isSucessFull() {
-//                        operaton(true)
-//                        self.delegate.uploadResult?(result: .UPloadResult_Success)
-//                    } else {
-//                        operaton(false)
-//                        self.delegate.uploadResult?(result: .UPloadResult_Failure)
-//                    }
-//                } else {
-//                    operaton(false)
-//                    self.delegate.uploadResult?(result: .UPloadResult_Failure)
-//                }
-//            }
-//        } else {
-//            print("###HeyUpload### unuseful HTTP Instance")
-//            operaton(false)
-//            progress(0.0, nil)
-//        }
-//
-//
-//        return opt
-        
-        
-        
-        
-
         let opt = HTTP.POST(self.settings.uploadUrl, parameters: ["file": Upload(fileUrl: URL(string: self.settings.filePath)!)]) { response in
             if let error = response.error {
                 print("###HeyUpload### HTTP POST ERROR: \(error)")
@@ -186,10 +108,24 @@ extension HeyUploadManager {
     }
     
     private func confirmUploadFile(onView: NSView) -> Void {
-        let uploadView = UploadLogsView.loadNibView()
         
-        uploadView?.setFrameOrigin(NSPoint(x: (onView.bounds.size.width - 330)/2, y: (onView.bounds.size.height - 230)/2))
-        onView.addSubview(uploadView!, positioned: .above, relativeTo: nil)
+        let uploadWc = UploadLogsWindowController.init(windowNibName: "UploadLogsWindowController")
+        uploadWc.window?.setFrameOrigin(NSPoint(x: (onView.window?.frame.origin.x ?? 0) + (onView.window!.frame.size.width - 330)/2, y: (onView.window?.frame.origin.y ?? 0) + (onView.window!.frame.size.height - 230)/2))
+        onView.window?.addChildWindow(uploadWc.window!, ordered: .above)
+        
+        let _ = upload { isUploadSuccess in
+            DispatchQueue.main.async {
+                if isUploadSuccess {
+                    uploadWc.window?.close()
+                } else {
+                    uploadWc.textLbl.stringValue = "上传失败"
+                }
+            }
+        } progress: { progress, httpIntance in
+            DispatchQueue.main.async {
+                uploadWc.progressLbl.stringValue = "\(progress)%"
+            }
+        }
     }
 }
 

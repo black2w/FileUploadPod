@@ -58,6 +58,38 @@ class HUDGifView: NSView {
         }
     }
     
+    func configGifImage(name: String) {
+        let myBundle = Bundle(for: HUDGifView.self)
+        guard let imagePath = myBundle.path(forResource: name, ofType: "gif") else { return }
+        guard let data = NSData(contentsOfFile: imagePath) else {return}
+     
+        image = NSImage(data: data as Data)
+        
+        self.gifbitmapRep = nil
+        if (gifTimer != nil) {
+            gifTimer?.invalidate()
+            gifTimer = nil
+        }
+        
+        let reps = image!.representations
+        for rep:NSImageRep in reps {
+            if (rep.isKind(of: NSBitmapImageRep.self)) {
+                let bitmapRep = rep as! NSBitmapImageRep
+                let numFrame:Int = bitmapRep.value(forProperty: .frameCount) as! Int
+                if numFrame == 0 {
+                    break
+                }
+                let delayTime:Float = bitmapRep.value(forProperty: .currentFrameDuration) as! Float
+                currentFrameIdx = 0
+                gifbitmapRep = bitmapRep
+
+                gifTimer = Timer.scheduledTimer(timeInterval: TimeInterval(delayTime), target: self, selector: #selector(animateGif), userInfo: nil, repeats: true)
+
+                RunLoop.main.add(gifTimer!, forMode: RunLoop.Mode.common)
+            }
+        }
+    }
+    
     @objc func animateGif() {
         self.setNeedsDisplay(self.bounds)
     }

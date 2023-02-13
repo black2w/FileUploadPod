@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="UploadLogsWindowController" customModule="HeyLogKit" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="ohS-lg-1uf" id="4sO-NS-qLn"/>
+                <outlet property="loadingView" destination="Q1k-3Y-cpY" id="Z6k-hY-i7F"/>
+                <outlet property="progressLbl" destination="W8R-cc-ahE" id="y27-dZ-ESy"/>
+                <outlet property="textLbl" destination="m3d-gk-zXQ" id="rgB-yf-UXa"/>
+                <outlet property="titleLbl" destination="zhz-bT-o5r" id="Fjt-Cr-G6c"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" fullSizeContentView="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="330" height="230"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="875"/>
+            <value key="minSize" type="size" width="330" height="230"/>
+            <value key="maxSize" type="size" width="330" height="230"/>
+            <value key="minFullScreenContentSize" type="size" width="330" height="230"/>
+            <value key="maxFullScreenContentSize" type="size" width="330" height="230"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="330" height="230"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <box boxType="custom" borderType="none" borderWidth="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="YNL-pe-Z7z">
+                        <rect key="frame" x="0.0" y="192" width="330" height="1"/>
+                        <view key="contentView" id="hyg-is-WDO">
+                            <rect key="frame" x="0.0" y="0.0" width="330" height="1"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </view>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="j1M-7C-r3m"/>
+                        </constraints>
+                        <color key="fillColor" red="0.0" green="0.0" blue="0.0" alpha="0.059999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                    </box>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zhz-bT-o5r">
+                        <rect key="frame" x="134" y="203" width="62" height="17"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="日志上传" id="LXx-q1-5CR">
+                            <font key="font" metaFont="systemBold" size="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="Q1k-3Y-cpY" customClass="HUDGifView" customModule="HeyLogKit" customModuleProvider="target">
+                        <rect key="frame" x="143" y="123" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Q1k-3Y-cpY" secondAttribute="height" multiplier="1:1" id="DeF-yT-tBg"/>
+                            <constraint firstAttribute="height" constant="45" id="xka-NW-ehO"/>
+                        </constraints>
+                    </customView>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="W8R-cc-ahE">
+                        <rect key="frame" x="152" y="101" width="27" height="17"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="0%" id="fCB-mC-OOA">
+                            <font key="font" metaFont="systemMedium" size="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.65000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="m3d-gk-zXQ">
+                        <rect key="frame" x="127" y="72" width="76" height="17"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="日志上传中" id="OcE-af-QEg">
+                            <font key="font" metaFont="system" size="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.65000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ohS-lg-1uf" customClass="HSButton" customModule="HeyLogKit" customModuleProvider="target">
+                        <rect key="frame" x="113" y="20" width="104" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="Fvw-0b-TeF"/>
+                            <constraint firstAttribute="width" constant="104" id="p5H-xk-VUU"/>
+                        </constraints>
+                        <buttonCell key="cell" type="bevel" title="取消" bezelStyle="rounded" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="JGc-eW-uEN">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="systemMedium" size="14"/>
+                        </buttonCell>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="YNL-pe-Z7z" firstAttribute="top" secondItem="se5-gp-TjO" secondAttribute="top" constant="37" id="0Or-pb-vTg"/>
+                    <constraint firstItem="Q1k-3Y-cpY" firstAttribute="centerX" secondItem="se5-gp-TjO" secondAttribute="centerX" id="4YU-3d-R9b"/>
+                    <constraint firstItem="m3d-gk-zXQ" firstAttribute="centerX" secondItem="se5-gp-TjO" secondAttribute="centerX" id="Kjd-cu-wn9"/>
+                    <constraint firstItem="zhz-bT-o5r" firstAttribute="centerX" secondItem="se5-gp-TjO" secondAttribute="centerX" id="N2z-xe-fqG"/>
+                    <constraint firstItem="W8R-cc-ahE" firstAttribute="top" secondItem="Q1k-3Y-cpY" secondAttribute="bottom" constant="5" id="QkG-0P-T2X"/>
+                    <constraint firstItem="YNL-pe-Z7z" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" id="R3p-uf-9dM"/>
+                    <constraint firstItem="Q1k-3Y-cpY" firstAttribute="top" secondItem="YNL-pe-Z7z" secondAttribute="bottom" constant="24" id="Ygc-Gb-qd0"/>
+                    <constraint firstItem="zhz-bT-o5r" firstAttribute="top" secondItem="se5-gp-TjO" secondAttribute="top" constant="10" id="a9A-YX-Mpi"/>
+                    <constraint firstItem="ohS-lg-1uf" firstAttribute="top" secondItem="m3d-gk-zXQ" secondAttribute="bottom" constant="20" id="cB7-qA-wlY"/>
+                    <constraint firstAttribute="bottom" secondItem="ohS-lg-1uf" secondAttribute="bottom" constant="20" id="cqW-U2-EBE"/>
+                    <constraint firstAttribute="trailing" secondItem="YNL-pe-Z7z" secondAttribute="trailing" id="l78-vd-4bX"/>
+                    <constraint firstItem="ohS-lg-1uf" firstAttribute="centerX" secondItem="se5-gp-TjO" secondAttribute="centerX" id="pXv-Kv-K52"/>
+                    <constraint firstItem="W8R-cc-ahE" firstAttribute="centerX" secondItem="se5-gp-TjO" secondAttribute="centerX" id="yL0-4x-cum"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+            <point key="canvasLocation" x="106" y="125"/>
+        </window>
+    </objects>
+</document>
