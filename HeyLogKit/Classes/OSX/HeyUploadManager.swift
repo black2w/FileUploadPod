@@ -46,11 +46,7 @@ import HandyJSON
     
     public func execute(onView: NSView) -> Void {
         if self.settings.usingDefaultUI {
-            #if os(iOS)
-                self.usingIOSUI(onView: onView)
-            #elseif os(macOS)
             self.usingIOSUI(onView: onView)
-            #endif
         } else {
             let _ = self.upload { isUploadSuccess in
                 

@@ -25,20 +25,25 @@ class WindowController: NSWindowController {
     }
     
     func copyFileToDoucment() -> String {
-        let filePath = Bundle.main.path(forResource: "2023", ofType: "zip")!
-        
-        let documentsURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
-        if let documentsURL = documentsURL {
-            let destURL = documentsURL.appendingPathComponent("2023.zip")
-            do { try FileManager.default.copyItem(at: URL(string: filePath)!, to: destURL) } catch { error
+//        let filePath = Bundle.main.path(forResource: "2023", ofType: "zip")!
+        if #available(macOS 13.0, *) {
+            let sourceUrl = URL(filePath: Bundle.main.path(forResource: "2023", ofType: "zip")!)
+            let documentsURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
+            if let documentsURL = documentsURL {
+                let destURL = documentsURL.appendingPathComponent("2023.zip")
                 
+                do { try FileManager.default.copyItem(at: sourceUrl, to: destURL) } catch { error
+                    print("copy error")
+                }
+                return destURL.absoluteString
+            } else {
+                return ""
             }
-            return destURL.absoluteString
         } else {
+            // Fallback on earlier versions
             return ""
         }
     }
-    
 }
 
 extension WindowController: HeyUploadManagerDelegate {

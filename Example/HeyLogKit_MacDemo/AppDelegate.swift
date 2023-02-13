@@ -17,7 +17,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-//        self.testUploadLog()
         var windowController = WindowController()
         let wc = WindowController.init(windowNibName: "WindowController")
         wc.window?.makeKeyAndOrderFront(nil)
@@ -35,68 +34,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationSupportsSecureRestorableState(_ app: NSApplication) -> Bool {
         return true
     }
-
-    func testUploadLog() -> Void {
-//        let filePath = Bundle.main.path(forResource: "2023", ofType: "zip")!
-//        self.copyFilesFromBundleToDocumentsFolderWith(fileExtension: "zip")
-
-        let filePath = self.copyFileToDoucment()
-        let setting = HeyUPloadSetting(fileName: "test", filePath: filePath ,usingDefaultUI: true, uploadUrl: "http://dev-tb.heyshare.cn/app/v2/log")
-        let uploader = HeyUploadManager(setting: setting, delegate: self)
-        uploader.execute(onView: self.window.contentView!)
-    }
-
-    func copyFilesFromBundleToDocumentsFolderWith(fileExtension: String) {
-        if let resPath = Bundle.main.resourcePath {
-            do {
-                let dirContents = try FileManager.default.contentsOfDirectory(atPath: resPath)
-                let documentsURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
-                let filteredFiles = dirContents.filter{ $0.contains(fileExtension)}
-                for fileName in filteredFiles {
-                    if let documentsURL = documentsURL {
-                        let sourceURL = Bundle.main.bundleURL.appendingPathComponent(fileName)
-                        let destURL = documentsURL.appendingPathComponent(fileName)
-                        do { try FileManager.default.copyItem(at: sourceURL, to: destURL) } catch { }
-                    }
-                }
-            } catch { }
-        }
-    }
-    
-    func copyFileToDoucment() -> String {
-//        let filePath = Bundle.main.path(forResource: "2023", ofType: "zip")!
-        let sourceUrl = URL(filePath: Bundle.main.path(forResource: "2023", ofType: "zip")!)
-
-        let documentsURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
-        if let documentsURL = documentsURL {
-            let destURL = documentsURL.appendingPathComponent("2023.zip")
-            
-            do { try FileManager.default.copyItem(at: sourceUrl, to: destURL) } catch { error
-                print("copy error")
-            }
-            return destURL.absoluteString
-        } else {
-            return ""
-        }
-    }
-    
-
 }
 
-
-@available(macOS 13.0, *)
-extension AppDelegate: HeyUploadManagerDelegate {
-    func uploadProgress(progress: Float) {
-        
-    }
-    
-    func uploadResult(result: UPloadResult) {
-        
-    }
-    
-    func uploadUISelect(select: UPloadUISelectResult) {
-        
-    }
-}
 
 
