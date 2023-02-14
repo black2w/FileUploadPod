@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of HeyLogKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/black2w/HeyLogKit",
+  "homepage": "http://172.17.16.14/material/ios/logupdate",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,25 +12,8 @@
     "wangwei": "black2w@126.com"
   },
   "source": {
-    "git": "https://github.com/black2w/HeyLogKit.git",
+    "git": "http://172.17.16.14/material/ios/logupdate.git",
     "tag": "0.1.0"
-  },
-  "dependencies": {
-    "AFNetworking": [
-
-    ],
-    "JSONModel": [
-
-    ],
-    "SwiftHTTP": [
-
-    ],
-    "HandyJSON": [
-
-    ],
-    "SnapKit": [
-
-    ]
   },
   "platforms": {
     "osx": null,
@@ -42,7 +25,8 @@
     {
       "name": "iOS",
       "platforms": {
-        "ios": "13.0"
+        "ios": "13.0",
+        "osx": "10.0"
       },
       "ios": {
         "frameworks": "UIKit"
@@ -75,7 +59,8 @@
     {
       "name": "OSX",
       "platforms": {
-        "osx": "11.0"
+        "ios": "13.0",
+        "osx": "10.0"
       },
       "osx": {
         "frameworks": [

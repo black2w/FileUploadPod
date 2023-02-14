@@ -8,12 +8,12 @@ end
 
 
 target 'HeyLogKit_MacDemo' do
-  platform :osx, '11.0'
+  platform :macos, '10.13'
   pod 'HeyLogKit/OSX', :path => '../'
 end
 
 
-target 'HeyLogKit_Tests' do
-  inherit! :search_paths
-end
+#target 'HeyLogKit_Tests' do
+#  inherit! :search_paths
+#end
 

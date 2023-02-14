@@ -21,17 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/black2w/HeyLogKit'
+  s.homepage         = 'http://172.17.16.14/material/ios/logupdate'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wangwei' => 'black2w@126.com' }
-  s.source           = { :git => 'https://github.com/black2w/HeyLogKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'http://172.17.16.14/material/ios/logupdate.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
   
   
   s.subspec 'iOS' do |i|
       i.ios.deployment_target = '13.0'
+      i.osx.deployment_target = '10.0'
       i.ios.framework  = 'UIKit'
       i.source_files = 'HeyLogKit/Classes/iOS/*'
       
@@ -51,7 +52,8 @@ TODO: Add long description of the pod here.
    end
 
    s.subspec 'OSX' do |o|
-       o.osx.deployment_target = '11.0'
+       o.ios.deployment_target = '13.0'
+       o.osx.deployment_target = '10.0'
        o.osx.framework  = 'AppKit', 'Cocoa'
        o.source_files = 'HeyLogKit/Classes/OSX/*'
        
@@ -72,7 +74,7 @@ TODO: Add long description of the pod here.
 #                        'HeyLogKit/Assets/OSX/*.xcassets',
 #                        'HeyLogKit/Assets/OSX/*.gif',
 #                    ]
-   end
+    end
    
    
 
@@ -104,9 +106,9 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'AFNetworking'
-   s.dependency 'JSONModel'
-   s.dependency 'SwiftHTTP'
-   s.dependency 'HandyJSON'
-   s.dependency 'SnapKit'
+#   s.dependency 'AFNetworking'
+#   s.dependency 'JSONModel'
+#   s.dependency 'SwiftHTTP'
+#   s.dependency 'HandyJSON'
+#   s.dependency 'SnapKit'
 end

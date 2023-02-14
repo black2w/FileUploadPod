@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24274F0BE2E07960D4B8F675 /* Pods_HeyLogKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE53D854CC71F36057C0AF0 /* Pods_HeyLogKit_Tests.framework */; };
 		42A25D19299A04B700CCEA11 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A25D17299A04B700CCEA11 /* WindowController.swift */; };
 		42A25D1A299A04B700CCEA11 /* WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42A25D18299A04B700CCEA11 /* WindowController.xib */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -16,7 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		74F4E189C154D015637B70D8 /* Pods_HeyLogKit_MacDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EA384A7EE666364A1DCDC9 /* Pods_HeyLogKit_MacDemo.framework */; };
+		634981689826D793C6F84773 /* Pods_HeyLogKit_MacDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CE5C39FD93641E69D8DE30 /* Pods_HeyLogKit_MacDemo.framework */; };
 		7C98C3662994D8460054A4E1 /* 2023.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7C98C3652994D8460054A4E1 /* 2023.zip */; };
 		7C98C36E2994DE4C0054A4E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C98C36D2994DE4C0054A4E1 /* AppDelegate.swift */; };
 		7C98C3702994DE4D0054A4E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C98C36F2994DE4D0054A4E1 /* Assets.xcassets */; };
@@ -39,8 +38,7 @@
 		2C72E55137CC797FF1B54228 /* Pods-HeyLogKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyLogKit_Example.release.xcconfig"; path = "Target Support Files/Pods-HeyLogKit_Example/Pods-HeyLogKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		42A25D17299A04B700CCEA11 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		42A25D18299A04B700CCEA11 /* WindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WindowController.xib; sourceTree = "<group>"; };
-		4AE53D854CC71F36057C0AF0 /* Pods_HeyLogKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeyLogKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		570ED5A18D42A9D6C487FC5B /* Pods-HeyLogKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyLogKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HeyLogKit_Tests/Pods-HeyLogKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D762FFA1553F1848233CF03 /* Pods-HeyLogKit_MacDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyLogKit_MacDemo.debug.xcconfig"; path = "Target Support Files/Pods-HeyLogKit_MacDemo/Pods-HeyLogKit_MacDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HeyLogKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeyLogKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,13 +58,11 @@
 		7C98C3722994DE4D0054A4E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		7C98C3742994DE4D0054A4E1 /* HeyLogKit_MacDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeyLogKit_MacDemo.entitlements; sourceTree = "<group>"; };
 		7C98C3BC299A05870054A4E1 /* HeyLogKit-MacDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "HeyLogKit-MacDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
-		7D4298C25EBC5DCE106AFAF0 /* Pods-HeyLogKit_MacDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyLogKit_MacDemo.debug.xcconfig"; path = "Target Support Files/Pods-HeyLogKit_MacDemo/Pods-HeyLogKit_MacDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		81ED9AB2AA5F9DBAA960A4DA /* HeyLogKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HeyLogKit.podspec; path = ../HeyLogKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		81F2A0A76CFF970A3CBCBC2D /* Pods-HeyLogKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyLogKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-HeyLogKit_Tests/Pods-HeyLogKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8DA3270A97B30BF1961C5E2C /* Pods-HeyLogKit_MacDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyLogKit_MacDemo.release.xcconfig"; path = "Target Support Files/Pods-HeyLogKit_MacDemo/Pods-HeyLogKit_MacDemo.release.xcconfig"; sourceTree = "<group>"; };
 		9068FD1C67672B2F1A675ED0 /* Pods_HeyLogKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeyLogKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A821DE7B181ED33C4B11F35B /* Pods-HeyLogKit_MacDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyLogKit_MacDemo.release.xcconfig"; path = "Target Support Files/Pods-HeyLogKit_MacDemo/Pods-HeyLogKit_MacDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C9CE5C39FD93641E69D8DE30 /* Pods_HeyLogKit_MacDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeyLogKit_MacDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D13F9B19CC8E550DA00BD05F /* Pods-HeyLogKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyLogKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-HeyLogKit_Example/Pods-HeyLogKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D3EA384A7EE666364A1DCDC9 /* Pods_HeyLogKit_MacDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeyLogKit_MacDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7108D512FA7153919759219 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FCB635AF1306C1081F39FF91 /* Pods-HeyLogKit_Example-HeyLogKit_MacDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyLogKit_Example-HeyLogKit_MacDemo.debug.xcconfig"; path = "Target Support Files/Pods-HeyLogKit_Example-HeyLogKit_MacDemo/Pods-HeyLogKit_Example-HeyLogKit_MacDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,7 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24274F0BE2E07960D4B8F675 /* Pods_HeyLogKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74F4E189C154D015637B70D8 /* Pods_HeyLogKit_MacDemo.framework in Frameworks */,
+				634981689826D793C6F84773 /* Pods_HeyLogKit_MacDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,8 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				9068FD1C67672B2F1A675ED0 /* Pods_HeyLogKit_Example.framework */,
-				4AE53D854CC71F36057C0AF0 /* Pods_HeyLogKit_Tests.framework */,
-				D3EA384A7EE666364A1DCDC9 /* Pods_HeyLogKit_MacDemo.framework */,
+				C9CE5C39FD93641E69D8DE30 /* Pods_HeyLogKit_MacDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,12 +108,10 @@
 			children = (
 				D13F9B19CC8E550DA00BD05F /* Pods-HeyLogKit_Example.debug.xcconfig */,
 				2C72E55137CC797FF1B54228 /* Pods-HeyLogKit_Example.release.xcconfig */,
-				570ED5A18D42A9D6C487FC5B /* Pods-HeyLogKit_Tests.debug.xcconfig */,
-				81F2A0A76CFF970A3CBCBC2D /* Pods-HeyLogKit_Tests.release.xcconfig */,
 				FCB635AF1306C1081F39FF91 /* Pods-HeyLogKit_Example-HeyLogKit_MacDemo.debug.xcconfig */,
 				655D1D4E26D1BF9D148EF7B6 /* Pods-HeyLogKit_Example-HeyLogKit_MacDemo.release.xcconfig */,
-				7D4298C25EBC5DCE106AFAF0 /* Pods-HeyLogKit_MacDemo.debug.xcconfig */,
-				A821DE7B181ED33C4B11F35B /* Pods-HeyLogKit_MacDemo.release.xcconfig */,
+				4D762FFA1553F1848233CF03 /* Pods-HeyLogKit_MacDemo.debug.xcconfig */,
+				8DA3270A97B30BF1961C5E2C /* Pods-HeyLogKit_MacDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -237,7 +229,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HeyLogKit_Tests" */;
 			buildPhases = (
-				C053735CDAF6849D83865473 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -256,11 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C98C3752994DE4D0054A4E1 /* Build configuration list for PBXNativeTarget "HeyLogKit_MacDemo" */;
 			buildPhases = (
-				B00B3EF12A05E9C19F2B7E73 /* [CP] Check Pods Manifest.lock */,
+				8CB13E454DAD9B5D9B5F49A3 /* [CP] Check Pods Manifest.lock */,
 				7C98C3672994DE4C0054A4E1 /* Sources */,
 				7C98C3682994DE4C0054A4E1 /* Frameworks */,
 				7C98C3692994DE4C0054A4E1 /* Resources */,
-				4320A2D2EC9494A4418CB609 /* [CP] Embed Pods Frameworks */,
+				81E7BCA4535D5DB4E661B183 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -353,34 +344,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4320A2D2EC9494A4418CB609 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HeyLogKit_MacDemo/Pods-HeyLogKit_MacDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking-c94d3492/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/HandyJSON-macOS/HandyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/HeyLogKit-OSX/HeyLogKit.framework",
-				"${BUILT_PRODUCTS_DIR}/JSONModel-macOS/JSONModel.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit-macOS/SnapKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftHTTP-macOS/SwiftHTTP.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HeyLogKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHTTP.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeyLogKit_MacDemo/Pods-HeyLogKit_MacDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4ED9E1D1A7D6925D963BFD89 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,29 +372,35 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeyLogKit_Example/Pods-HeyLogKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A5CCD4DB5806D080BF2380B7 /* [CP] Check Pods Manifest.lock */ = {
+		81E7BCA4535D5DB4E661B183 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-HeyLogKit_MacDemo/Pods-HeyLogKit_MacDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking-c94d3492/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON-macOS/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/HeyLogKit-OSX/HeyLogKit.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONModel-macOS/JSONModel.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit-macOS/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftHTTP-macOS/SwiftHTTP.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HeyLogKit_Example-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HeyLogKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHTTP.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeyLogKit_MacDemo/Pods-HeyLogKit_MacDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B00B3EF12A05E9C19F2B7E73 /* [CP] Check Pods Manifest.lock */ = {
+		8CB13E454DAD9B5D9B5F49A3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -453,7 +422,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C053735CDAF6849D83865473 /* [CP] Check Pods Manifest.lock */ = {
+		A5CCD4DB5806D080BF2380B7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -468,7 +437,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HeyLogKit_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HeyLogKit_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -677,7 +646,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 570ED5A18D42A9D6C487FC5B /* Pods-HeyLogKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 9MZ6AGR4FJ;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -701,7 +669,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81F2A0A76CFF970A3CBCBC2D /* Pods-HeyLogKit_Tests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 9MZ6AGR4FJ;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -721,8 +688,9 @@
 		};
 		7C98C3762994DE4D0054A4E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D4298C25EBC5DCE106AFAF0 /* Pods-HeyLogKit_MacDemo.debug.xcconfig */;
+			baseConfigurationReference = 4D762FFA1553F1848233CF03 /* Pods-HeyLogKit_MacDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -748,7 +716,7 @@
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -763,8 +731,9 @@
 		};
 		7C98C3772994DE4D0054A4E1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A821DE7B181ED33C4B11F35B /* Pods-HeyLogKit_MacDemo.release.xcconfig */;
+			baseConfigurationReference = 8DA3270A97B30BF1961C5E2C /* Pods-HeyLogKit_MacDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -789,7 +758,7 @@
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shgbit.heyshare2.dev.HeyLogKit-MacDemo";

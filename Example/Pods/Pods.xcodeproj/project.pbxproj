@@ -11,14 +11,13 @@
 		01EF2FC5A7D8013B1E1AEE22F3304BC9 /* SnapKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02206793B088763698C74D33642170ED /* SnapKit-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		025E8AB81E09D6A97B79C6B00F9A4BAB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5307F0C99E8A20C9F99E11B4E2C809 /* Cocoa.framework */; };
 		02F6560F1F627B0E75D40088C98358AD /* HeyUploadModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D761C830D83FB42BB7FD868B9AFBC /* HeyUploadModalView.swift */; };
-		03762C477E247F05BD47461334181864 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8661896CD202BA762F5494D03ABCB /* ReplaceMe.swift */; };
 		03D0FC154AA4295EEF5E7C2AB8CBF02E /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCA8BCF294851DFA28F1E6C7C897649 /* JSONValueTransformer.m */; };
 		0516DD3DFD33BB1BDF414ACA130E5AEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F628CC8B3E4911F8D897D2900036E4 /* Foundation.framework */; };
 		0585C9F05C5B22C46CDA60E527ED5640 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0365EFBD3C88B39EAC2330D1C7631F /* URLTransform.swift */; };
+		0599FB4A9BA007765C92AE0171798185 /* UploadLogsWindowController.xib in Sources */ = {isa = PBXBuildFile; fileRef = BE458333A99990088C77191CA7745D4F /* UploadLogsWindowController.xib */; };
 		0618727C92489467AEC91FC55F6C954D /* ConstraintMakerPrioritizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FDBDDC733205AAEA6ABFB6B2389604 /* ConstraintMakerPrioritizable.swift */; };
 		06CB6DAB452BF4C48FCDDD4ECD15B552 /* HeyLogKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E49D374BD9F95045AEF453D74F1CDC /* HeyLogKit-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		06F7BD524190955B6790B4F46819AF22 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FC709879E786BB8B309788889D01D5 /* ConstraintMaker.swift */; };
-		08AF4DC4623864DB62E6CE9409069168 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F628CC8B3E4911F8D897D2900036E4 /* Foundation.framework */; };
 		0AB6345E59797FCDD88226028D62BCB8 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EEB1938C0B5D0BBFB731509D09B001 /* EnumTransform.swift */; };
 		0AC5AB3978A5AE19AE5B0BDAB5FE911D /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BC3FA56A764A463C58920A9E2ABF1 /* Operation.swift */; };
 		0ADF5BF13C3D5B7F0C9A36A0D797D07E /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765382E82CFA50AE0F6E22DF506F490E /* ConstraintLayoutSupport.swift */; };
@@ -26,6 +25,7 @@
 		0CEB6E73986F268404CCB9ABF88976EF /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BF670D58DE26D6DCD88D29E229EA90B8 /* JSONKeyMapper.m */; };
 		0D9616AA58EF0BDA0D7D02E877D9A19C /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B803B8D2621C66A3AF975C17A7BC1B8B /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DB177CD57663F15D1B7745995182B67 /* AnyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FD70CC4CFF63589D629151397A73B /* AnyExtensions.swift */; };
+		0DCE8387B6E1EC489BCFE56EEEA0FD20 /* HeyUploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638FB351FCC1ADB867A73D63DC1E0DF5 /* HeyUploadManager.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		0EDE054506D670B241348406653F2AB4 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EEAFC535A8581062B04D236A7F7228 /* ConstraintOffsetTarget.swift */; };
 		0FC2C7300D3DE350BD73741888D9A1A8 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 11CAB5BEE0EC1640F596FB4775D31EB7 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0FD4B0CBF4F1C1F03D39C572CEFA54E6 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144FA6E2CC8EE64F2CDBB2468DACD492 /* Debugging.swift */; };
@@ -63,7 +63,6 @@
 		27AB52C7962046BC8963B2CD626F22BD /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A3429EB70540BA1A79C753F0F58614 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29FA44A1B08F94B015F1E814C606E170 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4BEA805C63719A5ADE46614ADC269A /* ConstraintViewDSL.swift */; };
 		2C3AAC666B8B25BE8130827FC852AB02 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 0748D72F8581B05B2549D166ECA46765 /* JSONModelError.m */; };
-		2CDBBE0E6218DBC49B54FE6BE0C8CFD1 /* Pods-HeyLogKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D74F6CBC2D611954F8A05A74F0C235C9 /* Pods-HeyLogKit_Tests-dummy.m */; };
 		2D241EA5AA7EAA4AD112828F8D9A89F3 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074D20AB3F3A8A970FB891AFCADBB030 /* ConstraintMultiplierTarget.swift */; };
 		2DEE5A7609C1B910B5994BDF0ADD5FE6 /* AFNetworking-c94d3492-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 991C161CB03A5496E37DA1A8FFA5303F /* AFNetworking-c94d3492-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E66A83622160C9ADF1D643F90891F02 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6311F37879A8D96417FB5164E998B0 /* AFURLSessionManager.m */; };
@@ -78,12 +77,12 @@
 		32F3116CCC7F68B59EF771DEF7511021 /* Export.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44AECE2473FBC729B6ABC8C75CFFA2 /* Export.swift */; };
 		33866EB4B6A879873ACDB3EBD09A53EA /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01191A7321F1784E7D709E2E5B57AA5 /* ISO8601DateTransform.swift */; };
 		33B9A195FDB315F18465CB1BA24D74A9 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F823999A3448440A9C69D75D729C4DCC /* AFHTTPSessionManager.m */; };
+		33E5E7E2EE337F5639664AF97D75785F /* UploadLogsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779351826A748FFC40ECBBAAD2B56492 /* UploadLogsWindowController.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		347731E8D4C4F27FC53DDFAC590481D6 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B4696514AF733B96B53F2DC9D87C3F /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35EF92DE9253E6029F8638157FC51828 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF00EBD0BFDD7C5C21D2921EEF39B87 /* DateFormatterTransform.swift */; };
 		375A9706B4885DB6AEA5B3E02C4ABB48 /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = B0BF318B8E397041FE58A8D5E6D977A5 /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39174246D86BC45DE2930DD875D487B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F628CC8B3E4911F8D897D2900036E4 /* Foundation.framework */; };
 		392FF58E5148C679FA8EE4666BB9A684 /* HandyJSON-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 490B03D4F9687856672B076D276D161C /* HandyJSON-macOS-dummy.m */; };
-		397331E019F7664ADABADAAC5B9E7F02 /* HUDMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E96EBD7F7A75C214DF839203D70984 /* HUDMaskView.swift */; };
 		3B43ECB1C4F8F81D61498DF9B99370C2 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F274F040C31F0D52DB9AC672133C67 /* AFURLRequestSerialization.m */; };
 		3C9511C28CE977BE3FD14E23EF2DF160 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD44FCC49A9784955E77376DB761E5 /* UILayoutSupport+Extensions.swift */; };
 		3E70B1D81C2DDCFF24E29316703F1B26 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B63F2FF3728E7FA32FC52D9BC946801B /* AFURLResponseSerialization.m */; };
@@ -112,10 +111,8 @@
 		477C052F40150FC61873445FA5386EF9 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7FC923388BE7045390107291FDF95C /* ConstraintMakerExtendable.swift */; };
 		47F97450B8A1C62CD7F8C9D8F6598DC7 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = ECECBB096186BE35C8BBBDF128BB98B3 /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4921C46F62484D5D1492D04D605AB47C /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FAC11774D0F41D79AB34995B84B453 /* ConstraintMakerEditable.swift */; };
-		4A714D3B83ED2B8D4336371EBBE58ACB /* Pods-HeyLogKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 977B46975C646D44E10ED39AA1EA9C6F /* Pods-HeyLogKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AD83BF89D883AD7BFAF587880985261 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D7A0D06F9E2D4791909E10A239ED98 /* Configuration.swift */; };
 		4BC6687911123A70A07F731F114F4899 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904437EB4835BABA7A4DC806864BD3A6 /* Upload.swift */; };
-		4BC74C192D6E7DD0676B21EF86E3219A /* HeyUPloadSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8684E4A8DD6AF28E47FEE80283B7F87 /* HeyUPloadSetting.swift */; };
 		4DCB59DE84A69063E9485E4D8BF8C637 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E0C91B60BC94A79E14A0FDB64C91DA /* AFNetworking-dummy.m */; };
 		50266F156412725DC470122A9D3BF596 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC7BEFE9FD960964CA4DC34BDB5D95 /* ConstraintDirectionalInsets.swift */; };
 		50388819B6708E344EE99739428A420C /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF4C08C00590C96ECB63EC2A1B6B357 /* Properties.swift */; };
@@ -133,6 +130,7 @@
 		5A6B48CA27211DD074C221D97FFC136C /* HandyJSON-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E08CD1D7101DDFDBD695F42CEF79591 /* HandyJSON-iOS-dummy.m */; };
 		5BE27AF46E2DE81F61752081EDB7E52B /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = E458A8755F138517A47E370834720F94 /* AFSecurityPolicy.m */; };
 		5C6A87F0F673ECBF8367AE72BAAAA168 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453F9907F15188D7CCF786CE323349CE /* UIKit.framework */; };
+		5D2303B83C073E91977DD114F24C98D2 /* HUDGifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564781445521AD87B7DC4E96EE4771C8 /* HUDGifView.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		5DDAB0493E3372D06B39F35E623DE6C1 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB87A9BED27E1190B1D35CD3135E10 /* LayoutConstraint.swift */; };
 		5EF5CA42C7DC8CA1555325E10935E940 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 0748D72F8581B05B2549D166ECA46765 /* JSONModelError.m */; };
 		5F36AE18624CC83B6444CD7B58B2863F /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44CC3E110BCAB6162E70C65DE89A51 /* ConstraintDirectionalInsetTarget.swift */; };
@@ -142,6 +140,7 @@
 		615040623C3BA84D50E1D45B60D2E641 /* JSONModel-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DBABB5DA216DA0D44C6814B055E02BD /* JSONModel-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		620028CC2DFB4780362E119C9FCA947B /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536EF4C42695AC40E83045917A08D921 /* ConstraintLayoutSupportDSL.swift */; };
 		62CC334014322DFEB5BDEDCC7C22EE0D /* HeyUploadWaitingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B4B38A094FFB54BD24DC2BAB99ECA3 /* HeyUploadWaitingView.swift */; };
+		6337DD0E9A32EAF33BC087AE154D3B02 /* HeyUploadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907AF7116CCEE586F076DBF33D26235F /* HeyUploadModel.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		63419018E7222B414E161CD480398E20 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409541833D5CCFF184EB235F6CF5F2D /* AFNetworkReachabilityManager.m */; };
 		637243EE5807271030AE4D9741392852 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6311F37879A8D96417FB5164E998B0 /* AFURLSessionManager.m */; };
 		646068B7021684653D03BAC44B646C4D /* HeyUploadBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6406B07648BCFB1DA45427420196CB02 /* HeyUploadBaseView.swift */; };
@@ -151,6 +150,7 @@
 		6C239323DE74D9551EB571A31A24EC1E /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8416028EC5C08CADCA567B582C5659 /* UIProgressView+AFNetworking.m */; };
 		6D322AC713F897B10DA3FC70DADFB4B3 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536EF4C42695AC40E83045917A08D921 /* ConstraintLayoutSupportDSL.swift */; };
 		6DB244706298D81730C5537279B7B635 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCB8E51D03CB3DA7E9F6DEDAC3EB416 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F5FCB78637A88B2689AA930482203DA /* HUDMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E96EBD7F7A75C214DF839203D70984 /* HUDMaskView.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		6FB9311565D08615EEA45993AAE67B4C /* BuiltInBasicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F735F0CE4F0D38530E2BC2447DEE217 /* BuiltInBasicType.swift */; };
 		70561E11B30AAE49760A411B5C647500 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B0099D22E427C7E41BD45756C9BDF /* ConstraintConfig.swift */; };
 		708B03818CD45F4DBFD47AAE74360295 /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6E1721C09CDE0A29D9A20DE42A019 /* Serializer.swift */; };
@@ -163,7 +163,7 @@
 		76724A94925E949D76D6A861B0FDAC73 /* HeyLogKit-iOS-HeyLogKit in Resources */ = {isa = PBXBuildFile; fileRef = 322A417739794587A6F7FAE48655C3D2 /* HeyLogKit-iOS-HeyLogKit */; };
 		79B1472A9E7F94F075BCCFD4A10EA5A3 /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A39D702D41AA1A52AB3D0BDDE2DAA49 /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D042010E7F4F8E3ECF0593C9C898FF9 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B565E974F7BF965CA47D326F83D3F6 /* ConstraintRelatableTarget.swift */; };
-		7D487E67E878DA294B7F2C863078E142 /* Pods-HeyLogKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B2DD15D85AF3F363AD71F43242A38A /* Pods-HeyLogKit_Example-dummy.m */; };
+		7D487E67E878DA294B7F2C863078E142 /* Pods-HeyLogKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B8366C9A91A72DE46E86B2F1F1599 /* Pods-HeyLogKit_Example-dummy.m */; };
 		7E66375ED39F2EFB99033364FB02AEB3 /* HTTPSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC7E2666685CA035DBBDA92163F036D /* HTTPSecurity.swift */; };
 		7EB8382073D96D4E9C154E470472E90E /* CBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45AF2785EC7B2DE2E9167D8A96F32B /* CBridge.swift */; };
 		7EE1FFA4AF912ED553E58431C20119CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F628CC8B3E4911F8D897D2900036E4 /* Foundation.framework */; };
@@ -189,7 +189,6 @@
 		9070797E6933967AFB43027CD430FE8F /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE403EAB782B67C50BC83BEF7C4B37D8 /* DataTransform.swift */; };
 		9080AD0342D302E83261EF6F6699E3D3 /* Transformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B3380792B562265C24CB4BC2FD7A6 /* Transformable.swift */; };
 		918AD88A49B79CD1B13BAD5415FE5621 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD64F2DC88D0721A2F559C0E5C7D590 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91C2ED7E66B7AF47C04AA931C520158A /* UploadLogsWindowController.xib in Sources */ = {isa = PBXBuildFile; fileRef = BE458333A99990088C77191CA7745D4F /* UploadLogsWindowController.xib */; };
 		9648D05EDA87F53949C126FCB73E6FDA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5307F0C99E8A20C9F99E11B4E2C809 /* Cocoa.framework */; };
 		96A53EAE6033A87A282690693069B34D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F628CC8B3E4911F8D897D2900036E4 /* Foundation.framework */; };
 		97EB8976E78AA2C17544A6453BC1EF04 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B63F2FF3728E7FA32FC52D9BC946801B /* AFURLResponseSerialization.m */; };
@@ -201,16 +200,15 @@
 		9EF303E8E484B95E1E3B1A7202EA046E /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC20DDDE5FF1DE5009C886CC4505F40 /* ConstraintDSL.swift */; };
 		9F5D472E0B58C95613C76C43148FC8B5 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CD4506FC80AEE96D3455D3C31E3EF795 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FB85533902E29A329C16C4D00442B2E /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 593574B1B57782EB4622A9562F3235DF /* JSONHTTPClient.m */; };
-		A03D0DC45407E3F89B4D9A81F5552655 /* UploadLogsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779351826A748FFC40ECBBAAD2B56492 /* UploadLogsWindowController.swift */; };
-		A0564A734BD68DD2CF7724D1DC69D79A /* HeyUploadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907AF7116CCEE586F076DBF33D26235F /* HeyUploadModel.swift */; };
 		A0C71BA183ACADEEBD89014116DDE71A /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA4B8FECB90D5FC3DE6A16C06891CC1 /* Typealiases.swift */; };
 		A33AE4486188B66462DC85E37255200A /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FA8223E349AB1B820257DA66C14EBB /* ConstraintLayoutGuideDSL.swift */; };
-		A34B417070DC9BDBA402501D379FB997 /* HeyLogKit-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC790BF39C2E2A39B43C3DDBC62DAB8 /* HeyLogKit-OSX-dummy.m */; };
 		A4B99501F18708AC075838184ADB7FC4 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082089F49F210BE2CCBF71C60955DC1A /* TransformType.swift */; };
 		A5431837F9AF83E032049166B9B2EE7C /* AFNetworking-c94d3492-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6BEF768DD4AB6D71C5A3A0AE699925 /* AFNetworking-c94d3492-dummy.m */; };
 		A5D4ABF87DB1367A103888613D904978 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB87A9BED27E1190B1D35CD3135E10 /* LayoutConstraint.swift */; };
 		A5D7F2CA2B104C51F4B00F96B9D8BC3F /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999B4A5A4D5A73FC028A8D85976306EB /* Request.swift */; };
 		A6A523A2D41B2C7F402BB5A2814369FE /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B88F01B2DD849CC8581D76D36780D8 /* ConstraintPriorityTarget.swift */; };
+		A7D4262D9619A127D02AEEB87D3FD396 /* HeyUPloadSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8684E4A8DD6AF28E47FEE80283B7F87 /* HeyUPloadSetting.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A9C5B3C96EDDBBA1F14E0745CF8E98C2 /* HSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8BD0D346F6D05CE72647EAB12B7AF0 /* HSButton.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		ABB7E58798F232766C97165B80564A9E /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CAFD2CDED2DE41B94EB004C04577E0 /* ConstraintLayoutGuide+Extensions.swift */; };
 		ABC51FF1D926D2FC02D360C9912ED8DE /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EEB1938C0B5D0BBFB731509D09B001 /* EnumTransform.swift */; };
 		AC025509BD3727F70D2212896AB47BC5 /* AnyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FD70CC4CFF63589D629151397A73B /* AnyExtensions.swift */; };
@@ -251,14 +249,13 @@
 		C70925B07BC870F18437450F30FDD66E /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF4C08C00590C96ECB63EC2A1B6B357 /* Properties.swift */; };
 		C880689D7D5F5F1482D830E31BE0E200 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F628CC8B3E4911F8D897D2900036E4 /* Foundation.framework */; };
 		C8B03D3E000324C01C12DE10B65A70C2 /* Measuable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547B10673114906FAC72B45227F7E64 /* Measuable.swift */; };
-		C8D70B4A1B6DEF067E775D121AAECAD6 /* Pods-HeyLogKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC320B1B6DF1A97A8117707B9623DD9 /* Pods-HeyLogKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA138CBEC3200F4C0A1E48A66F3B3634 /* Pods-HeyLogKit_MacDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C30534B23E1DFD1399C8FABF81E786C /* Pods-HeyLogKit_MacDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8D70B4A1B6DEF067E775D121AAECAD6 /* Pods-HeyLogKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E169FC740A3BBBBEFE2DE4E6324EE3FC /* Pods-HeyLogKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA138CBEC3200F4C0A1E48A66F3B3634 /* Pods-HeyLogKit_MacDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77449AAAC2B87B3C0E4F583E500BE55D /* Pods-HeyLogKit_MacDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC7182A5B47FFF436F4DE8D15428DD69 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4BBF521B34AD012E3C75DE4D9C6499 /* ConstraintView.swift */; };
 		CCC48E3A03631D2C57A4E8DCAAFBE1A1 /* Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688453DF0388E4EBE9CB3CC8240282E /* Metadata.swift */; };
 		CCCBDE34A45754C7AD958B78E67882DB /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E6623CACBEEE6A9ACEEAC62D381680 /* JSONModel+networking.m */; };
 		CD430A3D07E4CA640D7F68EE32A6DE61 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CFEC663580AF1A17A940B4A0F92E66B6 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDEF12A353FEBC8FE4E2EA0D3FFAC615 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F274F040C31F0D52DB9AC672133C67 /* AFURLRequestSerialization.m */; };
-		CED245C6BD14BA2D1F0E30B129EE5565 /* HUDGifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564781445521AD87B7DC4E96EE4771C8 /* HUDGifView.swift */; };
 		CED43C99233894CD24EB5A64B7CF8E8F /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FAC11774D0F41D79AB34995B84B453 /* ConstraintMakerEditable.swift */; };
 		CEE53027A2A9A2B53A5AAF37946AF825 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22189D3563710112624DE68F63D52F7 /* NSDecimalNumberTransform.swift */; };
 		D2820299CF2C4438C499759FD0681BB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F628CC8B3E4911F8D897D2900036E4 /* Foundation.framework */; };
@@ -267,7 +264,7 @@
 		D3814FF7430731ED96E0556C08EEB170 /* Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688453DF0388E4EBE9CB3CC8240282E /* Metadata.swift */; };
 		D3F143D0F7165D836675D25EE9F5481D /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DD03A1D77FA6B60BECAC23C68D35AE /* ConstraintMakerRelatable.swift */; };
 		D4C10D52815F391B40678D93D29ED833 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765382E82CFA50AE0F6E22DF506F490E /* ConstraintLayoutSupport.swift */; };
-		D61B24E60432E695E27142E37855E99A /* HSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8BD0D346F6D05CE72647EAB12B7AF0 /* HSButton.swift */; };
+		D588CCA188B10C11C0CA9AE1EFCC7D98 /* HeyLogKit-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC790BF39C2E2A39B43C3DDBC62DAB8 /* HeyLogKit-OSX-dummy.m */; };
 		D674D2CDA2F18A6669DD1129D3DDE359 /* ConstraintMakerRelatable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E80865BC1D6A04EA2B4FE7137B7BBCD /* ConstraintMakerRelatable+Extensions.swift */; };
 		D7A15BEA7A6E4598B06358C122305F31 /* HeyUPloadSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F862599AF1B3379111C2CA65E297E0 /* HeyUPloadSetting.swift */; };
 		D8B556375069207598561F3BC659C922 /* Transformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B3380792B562265C24CB4BC2FD7A6 /* Transformable.swift */; };
@@ -285,7 +282,7 @@
 		E015FFD67501DABA16D9591D6C27CD6B /* ExtendCustomBasicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75DC6F393B961FE0A6160F94ADE8489 /* ExtendCustomBasicType.swift */; };
 		E0B42E878F03279BA53DCF860BCFDF59 /* PropertyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDABC17494C5F8B0FD234DF9BBABC91 /* PropertyInfo.swift */; };
 		E0D64AB08991BA0B84A29845364584A9 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082089F49F210BE2CCBF71C60955DC1A /* TransformType.swift */; };
-		E348467E27F12344CFFADD37B1599393 /* Pods-HeyLogKit_MacDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BD3FE12CDB41D4D81973448DE2434D /* Pods-HeyLogKit_MacDemo-dummy.m */; };
+		E348467E27F12344CFFADD37B1599393 /* Pods-HeyLogKit_MacDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87588DB6DCFA0FF064E370D91CB6697E /* Pods-HeyLogKit_MacDemo-dummy.m */; };
 		E487066ABB2EE75888E8745A173E9E2C /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44CC3E110BCAB6162E70C65DE89A51 /* ConstraintDirectionalInsetTarget.swift */; };
 		E5107048EAE4186ED91C73EBE3784F74 /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99205529B81A09D07EAE76238798BA15 /* DateTransform.swift */; };
 		E583F6C52932C8992AADB659FE74B1EB /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A95E8C310267AC8C08039E141F3BB90 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -310,8 +307,8 @@
 		F3D5B31E9043910DAFA38785E1DD12EF /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AF010A0D93D5F22008D99A06EEAC1F /* AppKit.framework */; };
 		F4B3CAD4A1A8168858B3584852B4EBDF /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A39D702D41AA1A52AB3D0BDDE2DAA49 /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6ECE092494E97111C05CB7F6149EC17 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F4DE6FFE96959455516004207F80B4 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8286B38862AFD7C27DC8FB4E6FE8FF7 /* HeyUploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638FB351FCC1ADB867A73D63DC1E0DF5 /* HeyUploadManager.swift */; };
 		FA57C7B9116769DBBCAEE173060683A3 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 153BCFE0146A28BEF2351DCC9D4FDC20 /* AFImageDownloader.m */; };
+		FD2ECF46488592676477C28A494FF37D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8661896CD202BA762F5494D03ABCB /* ReplaceMe.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		FD9E05DB0E93EF2258D7C1668CCBE9FA /* PointerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A105395F0A4A324D275889F4EDA46B8 /* PointerType.swift */; };
 		FE5873669F9CC3848540E18C730EC73C /* MangledName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F615CB6D8658D1406FEF7F1E267EB71 /* MangledName.swift */; };
 		FE7519BF86006075D3A6E767DCDC6F65 /* HandyJSON-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A9EE29BE81BFEB3A373FE16DD41D3A /* HandyJSON-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -500,15 +497,14 @@
 		0748D72F8581B05B2549D166ECA46765 /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
 		074D20AB3F3A8A970FB891AFCADBB030 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Sources/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
 		082089F49F210BE2CCBF71C60955DC1A /* TransformType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformType.swift; path = Source/TransformType.swift; sourceTree = "<group>"; };
-		08A0A600ECD107124520CFE2AEB8A675 /* Pods-HeyLogKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HeyLogKit_Tests"; path = Pods_HeyLogKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09809B80D4BCB17C34D01120FBB3C965 /* HandyJSON-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HandyJSON-macOS-prefix.pch"; path = "../HandyJSON-macOS/HandyJSON-macOS-prefix.pch"; sourceTree = "<group>"; };
 		09CD0236A567FD7405986F7098630379 /* Deserializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deserializer.swift; path = Source/Deserializer.swift; sourceTree = "<group>"; };
+		0A3660DD87FE2A983072F6F1F9C1C981 /* Pods-HeyLogKit_MacDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeyLogKit_MacDemo.release.xcconfig"; sourceTree = "<group>"; };
 		0A3C193B0B8EE4CB9D61A23913368C08 /* SnapKit-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SnapKit-macOS-dummy.m"; path = "../SnapKit-macOS/SnapKit-macOS-dummy.m"; sourceTree = "<group>"; };
 		0A44AECE2473FBC729B6ABC8C75CFFA2 /* Export.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Export.swift; path = Source/Export.swift; sourceTree = "<group>"; };
 		0AA4858B5CA9F6EC494BE8BD3220261B /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Sources/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
 		0DF00361D9874A0E115BC60A9EE8A0B8 /* HeyLogKit-OSX */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "HeyLogKit-OSX"; path = HeyLogKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF00EBD0BFDD7C5C21D2921EEF39B87 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatterTransform.swift; path = Source/DateFormatterTransform.swift; sourceTree = "<group>"; };
-		0E14428AB33AB572F5AEAFA795CEA428 /* Pods-HeyLogKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeyLogKit_Example-Info.plist"; sourceTree = "<group>"; };
 		0FF77164281B3D842899418A6CA9BE99 /* SnapKit-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "SnapKit-macOS-Info.plist"; path = "../SnapKit-macOS/SnapKit-macOS-Info.plist"; sourceTree = "<group>"; };
 		10BEC0EBB9E4C4AE5B8E8CAB5D6FAC2A /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Sources/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		11CAB5BEE0EC1640F596FB4775D31EB7 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
@@ -521,7 +517,6 @@
 		16B565E974F7BF965CA47D326F83D3F6 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Sources/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		16CFF1D4D40D828BBAC811B1BB182AB8 /* JSONModel-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-iOS-dummy.m"; sourceTree = "<group>"; };
 		18433659CCB27AFAAFCE891F5CAA9464 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Sources/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
-		191472C1358A909ED7563A8DECC6606C /* Pods-HeyLogKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeyLogKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		19180FCE4636ECB330B6EDDF6971D62D /* TransformOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOf.swift; path = Source/TransformOf.swift; sourceTree = "<group>"; };
 		1946D2A1A51318761565021EA92EDB57 /* SnapKit-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-iOS-prefix.pch"; sourceTree = "<group>"; };
 		1A95E8C310267AC8C08039E141F3BB90 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
@@ -537,8 +532,6 @@
 		221F88CBA3689E81C46771ABF8F28A6A /* HeyLogKit-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HeyLogKit-OSX.debug.xcconfig"; sourceTree = "<group>"; };
 		227D6458DB15C69C4A3231663BA0131F /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
 		22DCCB0845807B88198AD59D81684943 /* AFNetworking-c94d3492.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "AFNetworking-c94d3492.release.xcconfig"; path = "../AFNetworking-c94d3492/AFNetworking-c94d3492.release.xcconfig"; sourceTree = "<group>"; };
-		23BD3FE12CDB41D4D81973448DE2434D /* Pods-HeyLogKit_MacDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeyLogKit_MacDemo-dummy.m"; sourceTree = "<group>"; };
-		23DE19DF919B24D02537A4072D45A491 /* Pods-HeyLogKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeyLogKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2547B10673114906FAC72B45227F7E64 /* Measuable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Measuable.swift; path = Source/Measuable.swift; sourceTree = "<group>"; };
 		27C2CD9D4A92362CA6DA6984343BAFB8 /* SwiftHTTP-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SwiftHTTP-iOS.modulemap"; sourceTree = "<group>"; };
 		280D702EB7683BE0B46AD67731A970E6 /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
@@ -547,8 +540,6 @@
 		2A99109370586E089C936ECF058DDDFC /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		2B6E57B16C2378E3390B83DF6CFF74D9 /* HeyLogKit-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeyLogKit-OSX-umbrella.h"; sourceTree = "<group>"; };
 		2BB8F1F40D453FE87EDC172C54E9034F /* HeyUploadWaitingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HeyUploadWaitingView.xib; path = HeyLogKit/Classes/iOS/HeyUploadWaitingView.xib; sourceTree = "<group>"; };
-		2CC824EFA570C18CBCFE561F941702EE /* Pods-HeyLogKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeyLogKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2CD295916C62804B285DED7F23193CE0 /* Pods-HeyLogKit_MacDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeyLogKit_MacDemo-frameworks.sh"; sourceTree = "<group>"; };
 		2CF4E881F1E482ABC05D4158F8B1B005 /* JSONModel-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "JSONModel-macOS.release.xcconfig"; path = "../JSONModel-macOS/JSONModel-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		2D1D2397433C189AA8272A9003A7AD65 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		2DF169F8A6D43CA431358D6785ED3657 /* HandyJSON-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "HandyJSON-macOS.release.xcconfig"; path = "../HandyJSON-macOS/HandyJSON-macOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -587,16 +578,13 @@
 		48CAFD2CDED2DE41B94EB004C04577E0 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Sources/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
 		490B03D4F9687856672B076D276D161C /* HandyJSON-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HandyJSON-macOS-dummy.m"; path = "../HandyJSON-macOS/HandyJSON-macOS-dummy.m"; sourceTree = "<group>"; };
 		49BF258AE27185075FC11584F45B91EF /* SnapKit-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SnapKit-macOS-prefix.pch"; path = "../SnapKit-macOS/SnapKit-macOS-prefix.pch"; sourceTree = "<group>"; };
-		49E96F4094DA2651BC9E9FD623BAEE3B /* Pods-HeyLogKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeyLogKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4C65DBB79F75B760543BAD23520E8357 /* SnapKit-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SnapKit-macOS.modulemap"; path = "../SnapKit-macOS/SnapKit-macOS.modulemap"; sourceTree = "<group>"; };
 		4DAB98B07BF7B4B91D28795C9D44866E /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		4DCC4CBD986EA1D791BA7EF628E26E65 /* SwiftHTTP-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftHTTP-macOS-prefix.pch"; path = "../SwiftHTTP-macOS/SwiftHTTP-macOS-prefix.pch"; sourceTree = "<group>"; };
 		4DFD13C35C97DFB864BAF8BF681423E0 /* HeyLogKit-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HeyLogKit-OSX.release.xcconfig"; sourceTree = "<group>"; };
 		4F6311F37879A8D96417FB5164E998B0 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		521C211974B3F86803298A09953BEC76 /* AFNetworking-c94d3492.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "AFNetworking-c94d3492.modulemap"; path = "../AFNetworking-c94d3492/AFNetworking-c94d3492.modulemap"; sourceTree = "<group>"; };
-		52E886C9916200271C1E3E661045FFC6 /* Pods-HeyLogKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeyLogKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		536EF4C42695AC40E83045917A08D921 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Sources/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
-		53B2DD15D85AF3F363AD71F43242A38A /* Pods-HeyLogKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeyLogKit_Example-dummy.m"; sourceTree = "<group>"; };
 		547E93C1A0F359698CF4251C79F8D6FA /* AFNetworking-c94d3492-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AFNetworking-c94d3492-prefix.pch"; path = "../AFNetworking-c94d3492/AFNetworking-c94d3492-prefix.pch"; sourceTree = "<group>"; };
 		564781445521AD87B7DC4E96EE4771C8 /* HUDGifView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUDGifView.swift; path = HeyLogKit/Classes/OSX/HUDGifView.swift; sourceTree = "<group>"; };
 		5696221E041B32CF1A6E74B8FAAE3892 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Sources/ConstraintInsets.swift; sourceTree = "<group>"; };
@@ -605,6 +593,7 @@
 		589B0099D22E427C7E41BD45756C9BDF /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Sources/ConstraintConfig.swift; sourceTree = "<group>"; };
 		593574B1B57782EB4622A9562F3235DF /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
 		5A4FD70CC4CFF63589D629151397A73B /* AnyExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyExtensions.swift; path = Source/AnyExtensions.swift; sourceTree = "<group>"; };
+		5AB0C6F2C5FEBD51325E171D7E821428 /* Pods-HeyLogKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeyLogKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5CDABC17494C5F8B0FD234DF9BBABC91 /* PropertyInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PropertyInfo.swift; path = Source/PropertyInfo.swift; sourceTree = "<group>"; };
 		5E08CD1D7101DDFDBD695F42CEF79591 /* HandyJSON-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HandyJSON-iOS-dummy.m"; sourceTree = "<group>"; };
 		5E80865BC1D6A04EA2B4FE7137B7BBCD /* ConstraintMakerRelatable+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintMakerRelatable+Extensions.swift"; path = "Sources/ConstraintMakerRelatable+Extensions.swift"; sourceTree = "<group>"; };
@@ -612,32 +601,32 @@
 		61066C8F4CF21900BE20672E8EAC9DA7 /* SwiftHTTP-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftHTTP-iOS-dummy.m"; sourceTree = "<group>"; };
 		613C709549A70BE51E590B3123367F9A /* UIImage+HeyUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+HeyUpload.swift"; path = "HeyLogKit/Classes/iOS/UIImage+HeyUpload.swift"; sourceTree = "<group>"; };
 		62278BE8EFEB1D3EB1F7BB228DA82FD7 /* SnapKit-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SnapKit-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		62BB9DB28E75B63462D7190454757B7B /* Pods-HeyLogKit_MacDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeyLogKit_MacDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6357EB8DB4CBB03A8228EF5698244725 /* Pods-HeyLogKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeyLogKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		638DAE21DAFACD9659A718CC850AD211 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		638FB351FCC1ADB867A73D63DC1E0DF5 /* HeyUploadManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeyUploadManager.swift; path = HeyLogKit/Classes/OSX/HeyUploadManager.swift; sourceTree = "<group>"; };
 		63D7A0D06F9E2D4791909E10A239ED98 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Source/Configuration.swift; sourceTree = "<group>"; };
 		63E49D374BD9F95045AEF453D74F1CDC /* HeyLogKit-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HeyLogKit-iOS-umbrella.h"; path = "../HeyLogKit-iOS/HeyLogKit-iOS-umbrella.h"; sourceTree = "<group>"; };
 		6406B07648BCFB1DA45427420196CB02 /* HeyUploadBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeyUploadBaseView.swift; path = HeyLogKit/Classes/iOS/HeyUploadBaseView.swift; sourceTree = "<group>"; };
 		651017031A1A488BBCBE9BE100D761EC /* JSONModel-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "JSONModel-iOS"; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67969167131EC8A05195DEC1E9B04C1C /* Pods-HeyLogKit_MacDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeyLogKit_MacDemo-frameworks.sh"; sourceTree = "<group>"; };
 		687F0D40CBF14E68BFDAED0F14ADC1FF /* SwiftHTTP-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftHTTP-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		6A39D702D41AA1A52AB3D0BDDE2DAA49 /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
 		6A7FC923388BE7045390107291FDF95C /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Sources/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		6AF4C08C00590C96ECB63EC2A1B6B357 /* Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Properties.swift; path = Source/Properties.swift; sourceTree = "<group>"; };
 		6B5C057FA7ED3789A1AC0A4B1EB51F54 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		6B8148C3EE5B9519C325D16391E854F8 /* Pods-HeyLogKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeyLogKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6C8BD0D346F6D05CE72647EAB12B7AF0 /* HSButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSButton.swift; path = HeyLogKit/Classes/OSX/HSButton.swift; sourceTree = "<group>"; };
 		6EEDF191E7D6D81713C7765D61060016 /* StatusCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatusCode.swift; path = Source/StatusCode.swift; sourceTree = "<group>"; };
 		70E2D8F7140625D5DC7109F253B57BD2 /* HandyJSON-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "HandyJSON-macOS.modulemap"; path = "../HandyJSON-macOS/HandyJSON-macOS.modulemap"; sourceTree = "<group>"; };
 		70F628CC8B3E4911F8D897D2900036E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7160F23C1B05F7BA7A8A0A3A45C9E02C /* SnapKit-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SnapKit-macOS.debug.xcconfig"; path = "../SnapKit-macOS/SnapKit-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7327152ECEC239E91122E9B9C8ECF115 /* HeyUploadModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeyUploadModel.swift; path = HeyLogKit/Classes/iOS/HeyUploadModel.swift; sourceTree = "<group>"; };
-		73EF9467A9E6671F45C4C3843EEAF04A /* Pods-HeyLogKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HeyLogKit_Tests.modulemap"; sourceTree = "<group>"; };
 		74308DF0887F0D8FCDB553944AA9E4F0 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		746A3AEBB4C9612BF96F3BA025AEB609 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		757813F62A930F9021D86593350B52A4 /* SnapKit-macOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "SnapKit-macOS"; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		765382E82CFA50AE0F6E22DF506F490E /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Sources/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		7688453DF0388E4EBE9CB3CC8240282E /* Metadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Metadata.swift; path = Source/Metadata.swift; sourceTree = "<group>"; };
 		7720AAD51BAD0B6AB2FD4FDA609703B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		77449AAAC2B87B3C0E4F583E500BE55D /* Pods-HeyLogKit_MacDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeyLogKit_MacDemo-umbrella.h"; sourceTree = "<group>"; };
 		779351826A748FFC40ECBBAAD2B56492 /* UploadLogsWindowController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UploadLogsWindowController.swift; path = HeyLogKit/Classes/OSX/UploadLogsWindowController.swift; sourceTree = "<group>"; };
 		7875F8B37D15F1C7931B6A110FD2CB00 /* HelpingMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HelpingMapper.swift; path = Source/HelpingMapper.swift; sourceTree = "<group>"; };
 		79E0C91B60BC94A79E14A0FDB64C91DA /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
@@ -649,15 +638,16 @@
 		7F735F0CE4F0D38530E2BC2447DEE217 /* BuiltInBasicType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BuiltInBasicType.swift; path = Source/BuiltInBasicType.swift; sourceTree = "<group>"; };
 		7F8416028EC5C08CADCA567B582C5659 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		80A3429EB70540BA1A79C753F0F58614 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		81EA75ADAE5116F522033877F75DF95A /* Pods-HeyLogKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeyLogKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		87588DB6DCFA0FF064E370D91CB6697E /* Pods-HeyLogKit_MacDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeyLogKit_MacDemo-dummy.m"; sourceTree = "<group>"; };
 		87F1FF24295918886024C9F78BE5D7E5 /* WKWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+AFNetworking.m"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		8954DBEFE4F404D1B3000A4E04C165E7 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		89DC3CF5D938A26C8A3AE40A2ACD81F1 /* AFNetworking-c94d3492 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "AFNetworking-c94d3492"; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A20E4D75059958F43D4165F53F05856 /* AFNetworking-c94d3492.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "AFNetworking-c94d3492.debug.xcconfig"; path = "../AFNetworking-c94d3492/AFNetworking-c94d3492.debug.xcconfig"; sourceTree = "<group>"; };
 		8AC20DDDE5FF1DE5009C886CC4505F40 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Sources/ConstraintDSL.swift; sourceTree = "<group>"; };
+		8ADA5947E805757AEF32F9D0D51F2D29 /* Pods-HeyLogKit_MacDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HeyLogKit_MacDemo.modulemap"; sourceTree = "<group>"; };
 		8BEA6ECCF7E5E6E5DAFEFD70280E9D20 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Sources/ConstraintAttributes.swift; sourceTree = "<group>"; };
 		8BFF349A8ED116063A16643F622AA384 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		8C30534B23E1DFD1399C8FABF81E786C /* Pods-HeyLogKit_MacDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeyLogKit_MacDemo-umbrella.h"; sourceTree = "<group>"; };
-		8CC320B1B6DF1A97A8117707B9623DD9 /* Pods-HeyLogKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeyLogKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		8F45AF2785EC7B2DE2E9167D8A96F32B /* CBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBridge.swift; path = Source/CBridge.swift; sourceTree = "<group>"; };
 		8F615CB6D8658D1406FEF7F1E267EB71 /* MangledName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MangledName.swift; path = Source/MangledName.swift; sourceTree = "<group>"; };
 		8FA4B8FECB90D5FC3DE6A16C06891CC1 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
@@ -667,12 +657,11 @@
 		90B4DDD3EB14A86BB5F4A071EB18BDBF /* SwiftHTTP-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftHTTP-macOS.release.xcconfig"; path = "../SwiftHTTP-macOS/SwiftHTTP-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		91C97A573B8A155A804B14BAE80A7021 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Sources/ConstraintItem.swift; sourceTree = "<group>"; };
 		92F862599AF1B3379111C2CA65E297E0 /* HeyUPloadSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeyUPloadSetting.swift; path = HeyLogKit/Classes/iOS/HeyUPloadSetting.swift; sourceTree = "<group>"; };
+		94651101FCCBC25F4BD39522BD3595A8 /* Pods-HeyLogKit_MacDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeyLogKit_MacDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		94FDBDDC733205AAEA6ABFB6B2389604 /* ConstraintMakerPrioritizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPrioritizable.swift; path = Sources/ConstraintMakerPrioritizable.swift; sourceTree = "<group>"; };
 		958378BE1089DE7F4E243CF37FB641AD /* SnapKit-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SnapKit-macOS-umbrella.h"; path = "../SnapKit-macOS/SnapKit-macOS-umbrella.h"; sourceTree = "<group>"; };
 		9628791AC41D16314B402D7EE0BCB1C0 /* OtherExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OtherExtension.swift; path = Source/OtherExtension.swift; sourceTree = "<group>"; };
-		97031FCF68100798FFD376759EA22898 /* Pods-HeyLogKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeyLogKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		977B3380792B562265C24CB4BC2FD7A6 /* Transformable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transformable.swift; path = Source/Transformable.swift; sourceTree = "<group>"; };
-		977B46975C646D44E10ED39AA1EA9C6F /* Pods-HeyLogKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeyLogKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		97DA0FCE6453231B1EF762B86490F385 /* SwiftHTTP-macOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "SwiftHTTP-macOS"; path = SwiftHTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FA851B464D6B718EE995D8B7D23B5B /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
 		991A72FD0471C4B36A0381060EBD5707 /* SwiftHTTP-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftHTTP-iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -686,17 +675,18 @@
 		9B1060D1DAA0765742C3EA4268306D6B /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
 		9B79292DC29B05349AD7DEB4966F5422 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
 		9CCB0C0EF950E81733A8361CD0F2A451 /* SnapKit-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-iOS-Info.plist"; sourceTree = "<group>"; };
+		9D2773AA247BE489941DE909C7B933F5 /* Pods-HeyLogKit_MacDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeyLogKit_MacDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DBABB5DA216DA0D44C6814B055E02BD /* JSONModel-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-iOS-umbrella.h"; sourceTree = "<group>"; };
 		A0100167540A8CD895899FC5E3BB0A07 /* SwiftHTTP-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHTTP-iOS-umbrella.h"; sourceTree = "<group>"; };
-		A0DD4D0B34B0F2BDB64896EF8CAEFCC4 /* Pods-HeyLogKit_MacDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeyLogKit_MacDemo-Info.plist"; sourceTree = "<group>"; };
 		A0F6E1721C09CDE0A29D9A20DE42A019 /* Serializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Serializer.swift; path = Source/Serializer.swift; sourceTree = "<group>"; };
 		A1A11BCE92D9A03DA295A059C2D5D08B /* SnapKit-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SnapKit-macOS.release.xcconfig"; path = "../SnapKit-macOS/SnapKit-macOS.release.xcconfig"; sourceTree = "<group>"; };
-		A23DD6D9EDA5E49FD3D2960E439A5FCB /* Pods-HeyLogKit_MacDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HeyLogKit_MacDemo.modulemap"; sourceTree = "<group>"; };
 		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5591BCE4ED4A699B3FF15388E299902 /* Pods-HeyLogKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeyLogKit_Example-Info.plist"; sourceTree = "<group>"; };
 		A5E96EBD7F7A75C214DF839203D70984 /* HUDMaskView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUDMaskView.swift; path = HeyLogKit/Classes/OSX/HUDMaskView.swift; sourceTree = "<group>"; };
 		A678A5FCC949EF5D7061887F11B1C2D2 /* SnapKit-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SnapKit-iOS.modulemap"; sourceTree = "<group>"; };
 		A7581D6B2E6FB739724070F3AE11393D /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		A93B8366C9A91A72DE46E86B2F1F1599 /* Pods-HeyLogKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeyLogKit_Example-dummy.m"; sourceTree = "<group>"; };
 		AA1FD8949BC280F010636EC92225D3A7 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
 		AF70600DD97F402D03DFED66A667B363 /* HandyJSON-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "HandyJSON-iOS"; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9BC3FA56A764A463C58920A9E2ABF1 /* Operation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operation.swift; path = Source/Operation.swift; sourceTree = "<group>"; };
@@ -708,45 +698,43 @@
 		B803B8D2621C66A3AF975C17A7BC1B8B /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
 		B92AA9369D8D94A899E0A8B969FDE54E /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		B9A8DD2F67F8CC0AB6755EB37EF3CF63 /* EnumType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumType.swift; path = Source/EnumType.swift; sourceTree = "<group>"; };
+		BAFEE0A8D837A3BF2138DE9BF0D7D365 /* Pods-HeyLogKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeyLogKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BB1D19314C66EDDFD695081ECF34AA25 /* SwiftHTTP-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftHTTP-macOS-umbrella.h"; path = "../SwiftHTTP-macOS/SwiftHTTP-macOS-umbrella.h"; sourceTree = "<group>"; };
 		BC6E9A06092FA13A55B84F114245878E /* ResourceBundle-HeyLogKit-HeyLogKit-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ResourceBundle-HeyLogKit-HeyLogKit-iOS-Info.plist"; path = "../HeyLogKit-iOS/ResourceBundle-HeyLogKit-HeyLogKit-iOS-Info.plist"; sourceTree = "<group>"; };
 		BC96A6F50A53040A9434F4ED635D7C99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BD6BEF768DD4AB6D71C5A3A0AE699925 /* AFNetworking-c94d3492-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AFNetworking-c94d3492-dummy.m"; path = "../AFNetworking-c94d3492/AFNetworking-c94d3492-dummy.m"; sourceTree = "<group>"; };
+		BE1B6E3BF9645552DC61099A06748A9E /* Pods-HeyLogKit_MacDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeyLogKit_MacDemo-Info.plist"; sourceTree = "<group>"; };
 		BE458333A99990088C77191CA7745D4F /* UploadLogsWindowController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UploadLogsWindowController.xib; path = HeyLogKit/Classes/OSX/UploadLogsWindowController.xib; sourceTree = "<group>"; };
 		BF0D07BDFBE1D26EE2D63D90616D05B2 /* HeyLogKit-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeyLogKit-OSX-prefix.pch"; sourceTree = "<group>"; };
 		BF270753E2E2BC17E96F97579A0F29E3 /* ContextDescriptorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContextDescriptorType.swift; path = Source/ContextDescriptorType.swift; sourceTree = "<group>"; };
 		BF670D58DE26D6DCD88D29E229EA90B8 /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
-		C01EFA0944C9F6A9AD97895B4911A975 /* Pods-HeyLogKit_MacDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeyLogKit_MacDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C40A42019813CFD90E846CCEA2E88E7A /* WKWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+AFNetworking.h"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		C476657D0EF30AC573DF029A7BD6FBB0 /* Pods-HeyLogKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HeyLogKit_Example.modulemap"; sourceTree = "<group>"; };
 		C69999869B62AB42F0CC3D4F9B8F398A /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		C75147A6028112E1CE69C1FCE655B5C6 /* ReflectionHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReflectionHelper.swift; path = Source/ReflectionHelper.swift; sourceTree = "<group>"; };
 		CBC5917F009110595E16B12EBEF7F8E5 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Sources/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		CD0365EFBD3C88B39EAC2330D1C7631F /* URLTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLTransform.swift; path = Source/URLTransform.swift; sourceTree = "<group>"; };
 		CD4506FC80AEE96D3455D3C31E3EF795 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		CEBCB89ED37CC1C3A774CE9D2FD5B480 /* HandyJSON-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HandyJSON-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		CECDBECDDA218E0196F5041963B80C2E /* Pods-HeyLogKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeyLogKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		CFE453DFB1F0968C58B9D9DD9A9B858A /* HandyJSON-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "HandyJSON-macOS-Info.plist"; path = "../HandyJSON-macOS/HandyJSON-macOS-Info.plist"; sourceTree = "<group>"; };
 		CFEC663580AF1A17A940B4A0F92E66B6 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		D0886390E5770868FE8151D0A0C64899 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
-		D342E8E5FB1E9C49C66D4BCEE6377DC8 /* Pods-HeyLogKit_MacDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeyLogKit_MacDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		D31DAF7C558417BC124E0B6E5C284B0C /* Pods-HeyLogKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeyLogKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D55624E6657D0E429ECB79CB8265197C /* HeyLogKit-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "HeyLogKit-OSX.modulemap"; sourceTree = "<group>"; };
 		D59D761C830D83FB42BB7FD868B9AFBC /* HeyUploadModalView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeyUploadModalView.swift; path = HeyLogKit/Classes/iOS/HeyUploadModalView.swift; sourceTree = "<group>"; };
 		D5DD03A1D77FA6B60BECAC23C68D35AE /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Sources/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
-		D74F6CBC2D611954F8A05A74F0C235C9 /* Pods-HeyLogKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeyLogKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		D7B88F01B2DD849CC8581D76D36780D8 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Sources/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		D7FC709879E786BB8B309788889D01D5 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Sources/ConstraintMaker.swift; sourceTree = "<group>"; };
 		D98E8F7508953A0484FD6EE7885E7E2F /* JSONModel-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel-macOS-prefix.pch"; path = "../JSONModel-macOS/JSONModel-macOS-prefix.pch"; sourceTree = "<group>"; };
 		DAD74725D3CF678D9AFAAEF72678AA1E /* HeyLogKit-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "HeyLogKit-iOS"; path = HeyLogKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC7E2666685CA035DBBDA92163F036D /* HTTPSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPSecurity.swift; path = Source/HTTPSecurity.swift; sourceTree = "<group>"; };
-		DBD2F616D5B6879816DD92608CF37C65 /* Pods-HeyLogKit_MacDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeyLogKit_MacDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DE5AFDAA0E77B5644C487195E0B53F5A /* HeyLogKit-OSX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HeyLogKit-OSX-Info.plist"; sourceTree = "<group>"; };
 		DFE8FF95615BF5B95382E96AF42FF929 /* SwiftHTTP-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "SwiftHTTP-macOS-Info.plist"; path = "../SwiftHTTP-macOS/SwiftHTTP-macOS-Info.plist"; sourceTree = "<group>"; };
 		E01191A7321F1784E7D709E2E5B57AA5 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateTransform.swift; path = Source/ISO8601DateTransform.swift; sourceTree = "<group>"; };
 		E0386303B226342E1AFD01D574A7CBAD /* SwiftHTTP-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SwiftHTTP-macOS.modulemap"; path = "../SwiftHTTP-macOS/SwiftHTTP-macOS.modulemap"; sourceTree = "<group>"; };
 		E087BFFF1D4AF5561B9DF4BDFF1905ED /* FieldDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldDescriptor.swift; path = Source/FieldDescriptor.swift; sourceTree = "<group>"; };
-		E0E08DB8A3380CA039585BD21F861B18 /* Pods-HeyLogKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeyLogKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E1263CD3EDB5A0B8F22F280D5362EC2B /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Source/Logger.swift; sourceTree = "<group>"; };
-		E2A3EE1E08CCCBB1BBB31FD0093DFF2C /* Pods-HeyLogKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeyLogKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E169FC740A3BBBBEFE2DE4E6324EE3FC /* Pods-HeyLogKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeyLogKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		E2C3CB4491E1309E3D07919FA01B6373 /* loading.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = loading.gif; path = HeyLogKit/Assets/OSX/loading.gif; sourceTree = "<group>"; };
 		E3FCAEB686047B7CD9A9C0BA024CBAF8 /* HandyJSON-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "HandyJSON-macOS.debug.xcconfig"; path = "../HandyJSON-macOS/HandyJSON-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		E458A8755F138517A47E370834720F94 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
@@ -771,11 +759,11 @@
 		F27FC5DA6B6C6D215B62B5B3B48D8103 /* JSONModel-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JSONModel-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		F5D18EDEA472A187F231F44A582452D1 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Sources/ConstraintRelation.swift; sourceTree = "<group>"; };
 		F62F101AB1BDEB2FA252CF35D052E73A /* JSONModel-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "JSONModel-macOS.modulemap"; path = "../JSONModel-macOS/JSONModel-macOS.modulemap"; sourceTree = "<group>"; };
+		F6DD10576BF0C57DD4073333A2479394 /* Pods-HeyLogKit_MacDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeyLogKit_MacDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F710F0542492E2E9FBF37E3236727CE4 /* SnapKit-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-iOS-dummy.m"; sourceTree = "<group>"; };
 		F823999A3448440A9C69D75D729C4DCC /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		F8684E4A8DD6AF28E47FEE80283B7F87 /* HeyUPloadSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeyUPloadSetting.swift; path = HeyLogKit/Classes/OSX/HeyUPloadSetting.swift; sourceTree = "<group>"; };
 		FA5B381B2F1425242F71EDE370E52699 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Sources/Constraint.swift; sourceTree = "<group>"; };
-		FB940E3D44D4E553110B17923F103AB8 /* Pods-HeyLogKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HeyLogKit_Example.modulemap"; sourceTree = "<group>"; };
 		FBCB8E51D03CB3DA7E9F6DEDAC3EB416 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
 		FC4BEA805C63719A5ADE46614ADC269A /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Sources/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		FD8D829F409D32A3AE2A6A3C4CD88B59 /* HandyJSON-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HandyJSON-iOS-Info.plist"; sourceTree = "<group>"; };
@@ -819,14 +807,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EE1FFA4AF912ED553E58431C20119CD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43A39E4D17AFFDCE973EF3E7E7D38DE5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				08AF4DC4623864DB62E6CE9409069168 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -922,6 +902,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00664D84B838892276031613E4FD0A54 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FB59D0CFB7F2CCE62FAC52BC6343720 /* Pods-HeyLogKit_Example */,
+				F7740DA10CED6857700751060E86A962 /* Pods-HeyLogKit_MacDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		08BA6DD5F2C081FE8811D002409455A4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1036,23 +1025,6 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		130F7DC2854F097D765A89C75B9DCC55 /* Pods-HeyLogKit_Example */ = {
-			isa = PBXGroup;
-			children = (
-				FB940E3D44D4E553110B17923F103AB8 /* Pods-HeyLogKit_Example.modulemap */,
-				E0E08DB8A3380CA039585BD21F861B18 /* Pods-HeyLogKit_Example-acknowledgements.markdown */,
-				52E886C9916200271C1E3E661045FFC6 /* Pods-HeyLogKit_Example-acknowledgements.plist */,
-				53B2DD15D85AF3F363AD71F43242A38A /* Pods-HeyLogKit_Example-dummy.m */,
-				49E96F4094DA2651BC9E9FD623BAEE3B /* Pods-HeyLogKit_Example-frameworks.sh */,
-				0E14428AB33AB572F5AEAFA795CEA428 /* Pods-HeyLogKit_Example-Info.plist */,
-				8CC320B1B6DF1A97A8117707B9623DD9 /* Pods-HeyLogKit_Example-umbrella.h */,
-				2CC824EFA570C18CBCFE561F941702EE /* Pods-HeyLogKit_Example.debug.xcconfig */,
-				E2A3EE1E08CCCBB1BBB31FD0093DFF2C /* Pods-HeyLogKit_Example.release.xcconfig */,
-			);
-			name = "Pods-HeyLogKit_Example";
-			path = "Target Support Files/Pods-HeyLogKit_Example";
-			sourceTree = "<group>";
-		};
 		1A631DFCAA84004421D7B1F105936108 /* Security */ = {
 			isa = PBXGroup;
 			children = (
@@ -1101,30 +1073,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		4260836713D4513D39E3099D9375F513 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */,
-				89DC3CF5D938A26C8A3AE40A2ACD81F1 /* AFNetworking-c94d3492 */,
-				AF70600DD97F402D03DFED66A667B363 /* HandyJSON-iOS */,
-				7C23336ADD7DCE9A3BCDE0D353514344 /* HandyJSON-macOS */,
-				DAD74725D3CF678D9AFAAEF72678AA1E /* HeyLogKit-iOS */,
-				322A417739794587A6F7FAE48655C3D2 /* HeyLogKit-iOS-HeyLogKit */,
-				0DF00361D9874A0E115BC60A9EE8A0B8 /* HeyLogKit-OSX */,
-				43C359D4B318F71CAB59F0790193C86D /* HeyLogKit-OSX-HeyLogKit */,
-				651017031A1A488BBCBE9BE100D761EC /* JSONModel-iOS */,
-				163B04639E5E2A508E9C76FE6E064BA0 /* JSONModel-macOS */,
-				11CB8048C5D21AF8B3D00ED9F0762E04 /* Pods-HeyLogKit_Example */,
-				B26F4A9FBDC2EC32218CC3EB74B5FD0C /* Pods-HeyLogKit_MacDemo */,
-				08A0A600ECD107124520CFE2AEB8A675 /* Pods-HeyLogKit_Tests */,
-				7E3671D7E869DDE5EE53381D07CFF249 /* SnapKit-iOS */,
-				757813F62A930F9021D86593350B52A4 /* SnapKit-macOS */,
-				3390E5ED13669561970518582835A770 /* SwiftHTTP-iOS */,
-				97DA0FCE6453231B1EF762B86490F385 /* SwiftHTTP-macOS */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		4420A01554B11FAD597D9391C9363332 /* OSX */ = {
 			isa = PBXGroup;
 			children = (
@@ -1141,22 +1089,6 @@
 				BE458333A99990088C77191CA7745D4F /* UploadLogsWindowController.xib */,
 			);
 			name = OSX;
-			sourceTree = "<group>";
-		};
-		4FBB2A151D82004F26FA8E9F0BAA7A44 /* Pods-HeyLogKit_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				73EF9467A9E6671F45C4C3843EEAF04A /* Pods-HeyLogKit_Tests.modulemap */,
-				6357EB8DB4CBB03A8228EF5698244725 /* Pods-HeyLogKit_Tests-acknowledgements.markdown */,
-				97031FCF68100798FFD376759EA22898 /* Pods-HeyLogKit_Tests-acknowledgements.plist */,
-				D74F6CBC2D611954F8A05A74F0C235C9 /* Pods-HeyLogKit_Tests-dummy.m */,
-				CECDBECDDA218E0196F5041963B80C2E /* Pods-HeyLogKit_Tests-Info.plist */,
-				977B46975C646D44E10ED39AA1EA9C6F /* Pods-HeyLogKit_Tests-umbrella.h */,
-				191472C1358A909ED7563A8DECC6606C /* Pods-HeyLogKit_Tests.debug.xcconfig */,
-				23DE19DF919B24D02537A4072D45A491 /* Pods-HeyLogKit_Tests.release.xcconfig */,
-			);
-			name = "Pods-HeyLogKit_Tests";
-			path = "Target Support Files/Pods-HeyLogKit_Tests";
 			sourceTree = "<group>";
 		};
 		539466BBF1E1013561DB16356473E0CC /* HeyLogKit */ = {
@@ -1230,6 +1162,23 @@
 			path = HandyJSON;
 			sourceTree = "<group>";
 		};
+		5FB59D0CFB7F2CCE62FAC52BC6343720 /* Pods-HeyLogKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C476657D0EF30AC573DF029A7BD6FBB0 /* Pods-HeyLogKit_Example.modulemap */,
+				5AB0C6F2C5FEBD51325E171D7E821428 /* Pods-HeyLogKit_Example-acknowledgements.markdown */,
+				81EA75ADAE5116F522033877F75DF95A /* Pods-HeyLogKit_Example-acknowledgements.plist */,
+				A93B8366C9A91A72DE46E86B2F1F1599 /* Pods-HeyLogKit_Example-dummy.m */,
+				D31DAF7C558417BC124E0B6E5C284B0C /* Pods-HeyLogKit_Example-frameworks.sh */,
+				A5591BCE4ED4A699B3FF15388E299902 /* Pods-HeyLogKit_Example-Info.plist */,
+				E169FC740A3BBBBEFE2DE4E6324EE3FC /* Pods-HeyLogKit_Example-umbrella.h */,
+				BAFEE0A8D837A3BF2138DE9BF0D7D365 /* Pods-HeyLogKit_Example.debug.xcconfig */,
+				6B8148C3EE5B9519C325D16391E854F8 /* Pods-HeyLogKit_Example.release.xcconfig */,
+			);
+			name = "Pods-HeyLogKit_Example";
+			path = "Target Support Files/Pods-HeyLogKit_Example";
+			sourceTree = "<group>";
+		};
 		6EA367345443D1C23F9B37CA6840C993 /* OS X */ = {
 			isa = PBXGroup;
 			children = (
@@ -1270,14 +1219,27 @@
 			path = "../Target Support Files/SnapKit-iOS";
 			sourceTree = "<group>";
 		};
-		75C513839EEF09DAB63F583FC7F85AF7 /* Targets Support Files */ = {
+		7A77DD53EE32E16E3D82F7DF2EC85B35 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				130F7DC2854F097D765A89C75B9DCC55 /* Pods-HeyLogKit_Example */,
-				F6B2B42640A17FA0B890242F497CE90D /* Pods-HeyLogKit_MacDemo */,
-				4FBB2A151D82004F26FA8E9F0BAA7A44 /* Pods-HeyLogKit_Tests */,
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */,
+				89DC3CF5D938A26C8A3AE40A2ACD81F1 /* AFNetworking-c94d3492 */,
+				AF70600DD97F402D03DFED66A667B363 /* HandyJSON-iOS */,
+				7C23336ADD7DCE9A3BCDE0D353514344 /* HandyJSON-macOS */,
+				DAD74725D3CF678D9AFAAEF72678AA1E /* HeyLogKit-iOS */,
+				322A417739794587A6F7FAE48655C3D2 /* HeyLogKit-iOS-HeyLogKit */,
+				0DF00361D9874A0E115BC60A9EE8A0B8 /* HeyLogKit-OSX */,
+				43C359D4B318F71CAB59F0790193C86D /* HeyLogKit-OSX-HeyLogKit */,
+				651017031A1A488BBCBE9BE100D761EC /* JSONModel-iOS */,
+				163B04639E5E2A508E9C76FE6E064BA0 /* JSONModel-macOS */,
+				11CB8048C5D21AF8B3D00ED9F0762E04 /* Pods-HeyLogKit_Example */,
+				B26F4A9FBDC2EC32218CC3EB74B5FD0C /* Pods-HeyLogKit_MacDemo */,
+				7E3671D7E869DDE5EE53381D07CFF249 /* SnapKit-iOS */,
+				757813F62A930F9021D86593350B52A4 /* SnapKit-macOS */,
+				3390E5ED13669561970518582835A770 /* SwiftHTTP-iOS */,
+				97DA0FCE6453231B1EF762B86490F385 /* SwiftHTTP-macOS */,
 			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7C3128EF5D9D8B5D31B738C83DEE57A5 /* Support Files */ = {
@@ -1397,8 +1359,8 @@
 				0B23B1C0574A906FE222F96505E13C02 /* Development Pods */,
 				6EFB174C92A99F449D96508D19BFE160 /* Frameworks */,
 				2FF80E4E69490644CE7C436E193DC6A1 /* Pods */,
-				4260836713D4513D39E3099D9375F513 /* Products */,
-				75C513839EEF09DAB63F583FC7F85AF7 /* Targets Support Files */,
+				7A77DD53EE32E16E3D82F7DF2EC85B35 /* Products */,
+				00664D84B838892276031613E4FD0A54 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1455,18 +1417,18 @@
 			path = "../Target Support Files/SwiftHTTP-iOS";
 			sourceTree = "<group>";
 		};
-		F6B2B42640A17FA0B890242F497CE90D /* Pods-HeyLogKit_MacDemo */ = {
+		F7740DA10CED6857700751060E86A962 /* Pods-HeyLogKit_MacDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A23DD6D9EDA5E49FD3D2960E439A5FCB /* Pods-HeyLogKit_MacDemo.modulemap */,
-				62BB9DB28E75B63462D7190454757B7B /* Pods-HeyLogKit_MacDemo-acknowledgements.markdown */,
-				D342E8E5FB1E9C49C66D4BCEE6377DC8 /* Pods-HeyLogKit_MacDemo-acknowledgements.plist */,
-				23BD3FE12CDB41D4D81973448DE2434D /* Pods-HeyLogKit_MacDemo-dummy.m */,
-				2CD295916C62804B285DED7F23193CE0 /* Pods-HeyLogKit_MacDemo-frameworks.sh */,
-				A0DD4D0B34B0F2BDB64896EF8CAEFCC4 /* Pods-HeyLogKit_MacDemo-Info.plist */,
-				8C30534B23E1DFD1399C8FABF81E786C /* Pods-HeyLogKit_MacDemo-umbrella.h */,
-				DBD2F616D5B6879816DD92608CF37C65 /* Pods-HeyLogKit_MacDemo.debug.xcconfig */,
-				C01EFA0944C9F6A9AD97895B4911A975 /* Pods-HeyLogKit_MacDemo.release.xcconfig */,
+				8ADA5947E805757AEF32F9D0D51F2D29 /* Pods-HeyLogKit_MacDemo.modulemap */,
+				9D2773AA247BE489941DE909C7B933F5 /* Pods-HeyLogKit_MacDemo-acknowledgements.markdown */,
+				94651101FCCBC25F4BD39522BD3595A8 /* Pods-HeyLogKit_MacDemo-acknowledgements.plist */,
+				87588DB6DCFA0FF064E370D91CB6697E /* Pods-HeyLogKit_MacDemo-dummy.m */,
+				67969167131EC8A05195DEC1E9B04C1C /* Pods-HeyLogKit_MacDemo-frameworks.sh */,
+				BE1B6E3BF9645552DC61099A06748A9E /* Pods-HeyLogKit_MacDemo-Info.plist */,
+				77449AAAC2B87B3C0E4F583E500BE55D /* Pods-HeyLogKit_MacDemo-umbrella.h */,
+				F6DD10576BF0C57DD4073333A2479394 /* Pods-HeyLogKit_MacDemo.debug.xcconfig */,
+				0A3660DD87FE2A983072F6F1F9C1C981 /* Pods-HeyLogKit_MacDemo.release.xcconfig */,
 			);
 			name = "Pods-HeyLogKit_MacDemo";
 			path = "Target Support Files/Pods-HeyLogKit_MacDemo";
@@ -1606,14 +1568,6 @@
 				79B1472A9E7F94F075BCCFD4A10EA5A3 /* JSONModelError.h in Headers */,
 				375A9706B4885DB6AEA5B3E02C4ABB48 /* JSONModelLib.h in Headers */,
 				189391CDAEA107C650EEBEFD8F8788DE /* JSONValueTransformer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9C662D7BB890A3E7587A9A1712D1CAD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4A714D3B83ED2B8D4336371EBBE58ACB /* Pods-HeyLogKit_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1775,24 +1729,6 @@
 			productReference = DAD74725D3CF678D9AFAAEF72678AA1E /* HeyLogKit-iOS */;
 			productType = "com.apple.product-type.framework";
 		};
-		94053E984008AE1134C24AC36DC27FA0 /* Pods-HeyLogKit_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C13330411E9403B3CECA765C0721D257 /* Build configuration list for PBXNativeTarget "Pods-HeyLogKit_Tests" */;
-			buildPhases = (
-				E9C662D7BB890A3E7587A9A1712D1CAD /* Headers */,
-				390AE422F8DC436B6AECD2D87F72B8C9 /* Sources */,
-				43A39E4D17AFFDCE973EF3E7E7D38DE5 /* Frameworks */,
-				BDD92ABCF3FF40BB701F2C673626CE95 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-HeyLogKit_Tests";
-			productName = Pods_HeyLogKit_Tests;
-			productReference = 08A0A600ECD107124520CFE2AEB8A675 /* Pods-HeyLogKit_Tests */;
-			productType = "com.apple.product-type.framework";
-		};
 		997B200DC207D1A1A7D07F2FDE527972 /* JSONModel-macOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A289C4FE820DAF8F16A14F118AD0DD3E /* Build configuration list for PBXNativeTarget "JSONModel-macOS" */;
@@ -1834,7 +1770,7 @@
 			buildConfigurationList = E47BAAA959F8DCAAA99C209955DD7AC8 /* Build configuration list for PBXNativeTarget "HeyLogKit-OSX" */;
 			buildPhases = (
 				688331EFA5CBA5AB0836D575A0231472 /* Headers */,
-				CD28B61781DA71C2FB2FEB5D62DD0FAF /* Sources */,
+				606CA5EECFCE4971110E5DC4089BA9EC /* Sources */,
 				675A19DB01A3BB1F86435F0F37C7D03C /* Frameworks */,
 				396BD326DC713A49AC0E98CE7D122AEF /* Resources */,
 			);
@@ -1990,7 +1926,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4260836713D4513D39E3099D9375F513 /* Products */;
+			productRefGroup = 7A77DD53EE32E16E3D82F7DF2EC85B35 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2006,7 +1942,6 @@
 				997B200DC207D1A1A7D07F2FDE527972 /* JSONModel-macOS */,
 				CDED3A8AC4CD4D308CEC5ADBEA193228 /* Pods-HeyLogKit_Example */,
 				EA5E6E055C8D67EBCD03F71D2309072A /* Pods-HeyLogKit_MacDemo */,
-				94053E984008AE1134C24AC36DC27FA0 /* Pods-HeyLogKit_Tests */,
 				6E3CE42DF5CA5A68311B8B79BCF5C14B /* SnapKit-iOS */,
 				44FD3C7BB3E9C481B637D1EA95C99A2B /* SnapKit-macOS */,
 				DC0D0F1523872697B1E4CA227EB68962 /* SwiftHTTP-iOS */,
@@ -2112,13 +2047,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDD92ABCF3FF40BB701F2C673626CE95 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D027A2BCF0E17101E9FE7ECB159E6A0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2203,14 +2131,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		390AE422F8DC436B6AECD2D87F72B8C9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2CDBBE0E6218DBC49B54FE6BE0C8CFD1 /* Pods-HeyLogKit_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		52B00CE4163DA746A095D2191452A21D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2224,6 +2144,23 @@
 				D9DF82966A84FDF52D433744ABCA49CC /* JSONModelClassProperty.m in Sources */,
 				5EF5CA42C7DC8CA1555325E10935E940 /* JSONModelError.m in Sources */,
 				03D0FC154AA4295EEF5E7C2AB8CBF02E /* JSONValueTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606CA5EECFCE4971110E5DC4089BA9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D588CCA188B10C11C0CA9AE1EFCC7D98 /* HeyLogKit-OSX-dummy.m in Sources */,
+				0DCE8387B6E1EC489BCFE56EEEA0FD20 /* HeyUploadManager.swift in Sources */,
+				6337DD0E9A32EAF33BC087AE154D3B02 /* HeyUploadModel.swift in Sources */,
+				A7D4262D9619A127D02AEEB87D3FD396 /* HeyUPloadSetting.swift in Sources */,
+				A9C5B3C96EDDBBA1F14E0745CF8E98C2 /* HSButton.swift in Sources */,
+				5D2303B83C073E91977DD114F24C98D2 /* HUDGifView.swift in Sources */,
+				6F5FCB78637A88B2689AA930482203DA /* HUDMaskView.swift in Sources */,
+				FD2ECF46488592676477C28A494FF37D /* ReplaceMe.swift in Sources */,
+				33E5E7E2EE337F5639664AF97D75785F /* UploadLogsWindowController.swift in Sources */,
+				0599FB4A9BA007765C92AE0171798185 /* UploadLogsWindowController.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2416,23 +2353,6 @@
 				6C239323DE74D9551EB571A31A24EC1E /* UIProgressView+AFNetworking.m in Sources */,
 				AC29EE5318026D0BAF479C904536378F /* UIRefreshControl+AFNetworking.m in Sources */,
 				657D596F7ED1260403D4E064E6BF8CD1 /* WKWebView+AFNetworking.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD28B61781DA71C2FB2FEB5D62DD0FAF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A34B417070DC9BDBA402501D379FB997 /* HeyLogKit-OSX-dummy.m in Sources */,
-				F8286B38862AFD7C27DC8FB4E6FE8FF7 /* HeyUploadManager.swift in Sources */,
-				A0564A734BD68DD2CF7724D1DC69D79A /* HeyUploadModel.swift in Sources */,
-				4BC74C192D6E7DD0676B21EF86E3219A /* HeyUPloadSetting.swift in Sources */,
-				D61B24E60432E695E27142E37855E99A /* HSButton.swift in Sources */,
-				CED245C6BD14BA2D1F0E30B129EE5565 /* HUDGifView.swift in Sources */,
-				397331E019F7664ADABADAAC5B9E7F02 /* HUDMaskView.swift in Sources */,
-				03762C477E247F05BD47461334181864 /* ReplaceMe.swift in Sources */,
-				A03D0DC45407E3F89B4D9A81F5552655 /* UploadLogsWindowController.swift in Sources */,
-				91C2ED7E66B7AF47C04AA931C520158A /* UploadLogsWindowController.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2639,7 +2559,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		041F978B56A1D8BD4087FAF404C791F8 /* Debug */ = {
+		00BB0D5C529E09D2A4421E6E4D29F0E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2674,16 +2594,13 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
+					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -2693,18 +2610,17 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
-			name = Debug;
+			name = Release;
 		};
 		0D22A1ECB24DD6C809C816CD8DE16D9A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2740,7 +2656,7 @@
 		};
 		0F4B8E6DBDAC53253587325C2740FB73 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2A3EE1E08CCCBB1BBB31FD0093DFF2C /* Pods-HeyLogKit_Example.release.xcconfig */;
+			baseConfigurationReference = 6B8148C3EE5B9519C325D16391E854F8 /* Pods-HeyLogKit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -2836,37 +2752,70 @@
 			};
 			name = Debug;
 		};
-		4127F695FF55AD80370DF6DA142FAB10 /* Debug */ = {
+		2D0FB2887ABC429A56ACFB9F5FF07945 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 191472C1358A909ED7563A8DECC6606C /* Pods-HeyLogKit_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HeyLogKit_Tests/Pods-HeyLogKit_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HeyLogKit_Tests/Pods-HeyLogKit_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
@@ -2886,38 +2835,22 @@
 			};
 			name = Release;
 		};
-		4F4FF3F2232C003628DF58507BB0070E /* Release */ = {
+		4AA6888A7126CAA39C2B1F9D9DF4494C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C01EFA0944C9F6A9AD97895B4911A975 /* Pods-HeyLogKit_MacDemo.release.xcconfig */;
+			baseConfigurationReference = 221F88CBA3689E81C46771ABF8F28A6A /* HeyLogKit-OSX.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HeyLogKit_MacDemo/Pods-HeyLogKit_MacDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MODULEMAP_FILE = "Target Support Files/Pods-HeyLogKit_MacDemo/Pods-HeyLogKit_MacDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HeyLogKit-OSX";
+				IBSC_MODULE = HeyLogKit;
+				INFOPLIST_FILE = "Target Support Files/HeyLogKit-OSX/ResourceBundle-HeyLogKit-HeyLogKit-OSX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = HeyLogKit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		4F97943DBEC9F26C650D60A0FDF06A95 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2983,6 +2916,40 @@
 			};
 			name = Release;
 		};
+		536285F38CEFCD32F57430E4D8B5E80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A3660DD87FE2A983072F6F1F9C1C981 /* Pods-HeyLogKit_MacDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HeyLogKit_MacDemo/Pods-HeyLogKit_MacDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-HeyLogKit_MacDemo/Pods-HeyLogKit_MacDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		537C980086B55EF6857934438EE0C36E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F27FC5DA6B6C6D215B62B5B3B48D8103 /* JSONModel-iOS.release.xcconfig */;
@@ -3015,40 +2982,9 @@
 			};
 			name = Release;
 		};
-		650B8005E62E5CE136B625DB9E8D678B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 221F88CBA3689E81C46771ABF8F28A6A /* HeyLogKit-OSX.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HeyLogKit-OSX/HeyLogKit-OSX-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HeyLogKit-OSX/HeyLogKit-OSX-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MODULEMAP_FILE = "Target Support Files/HeyLogKit-OSX/HeyLogKit-OSX.modulemap";
-				PRODUCT_MODULE_NAME = HeyLogKit;
-				PRODUCT_NAME = HeyLogKit;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		69BFC13F5095454A6D36201D2BB9D584 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CC824EFA570C18CBCFE561F941702EE /* Pods-HeyLogKit_Example.debug.xcconfig */;
+			baseConfigurationReference = BAFEE0A8D837A3BF2138DE9BF0D7D365 /* Pods-HeyLogKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -3205,6 +3141,38 @@
 			};
 			name = Debug;
 		};
+		9086EB41E6EC904AA0D2E6C9F7283099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DFD13C35C97DFB864BAF8BF681423E0 /* HeyLogKit-OSX.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HeyLogKit-OSX/HeyLogKit-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HeyLogKit-OSX/HeyLogKit-OSX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = "Target Support Files/HeyLogKit-OSX/HeyLogKit-OSX.modulemap";
+				PRODUCT_MODULE_NAME = HeyLogKit;
+				PRODUCT_NAME = HeyLogKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		946829BFA5770740077CDCF1A1340DA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1BBA5E0A49106044476BE7874E3051AF /* SwiftHTTP-macOS.debug.xcconfig */;
@@ -3237,69 +3205,6 @@
 			};
 			name = Debug;
 		};
-		A0617F8A7CDD248B5F978CB2F20FAEBA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
 		A180D6ED9AFFD7A0832F92FD7F332E86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 62278BE8EFEB1D3EB1F7BB228DA82FD7 /* SnapKit-iOS.debug.xcconfig */;
@@ -3327,6 +3232,40 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A24596BACA72E0B30640E7917AE4AD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6DD10576BF0C57DD4073333A2479394 /* Pods-HeyLogKit_MacDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HeyLogKit_MacDemo/Pods-HeyLogKit_MacDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-HeyLogKit_MacDemo/Pods-HeyLogKit_MacDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -3397,6 +3336,38 @@
 			};
 			name = Release;
 		};
+		AF09B9977438355A9FDB2C733FBF2593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 221F88CBA3689E81C46771ABF8F28A6A /* HeyLogKit-OSX.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HeyLogKit-OSX/HeyLogKit-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HeyLogKit-OSX/HeyLogKit-OSX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = "Target Support Files/HeyLogKit-OSX/HeyLogKit-OSX.modulemap";
+				PRODUCT_MODULE_NAME = HeyLogKit;
+				PRODUCT_NAME = HeyLogKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B7D55CB2C69ACA51D78270940643BB2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2CF4E881F1E482ABC05D4158F8B1B005 /* JSONModel-macOS.release.xcconfig */;
@@ -3428,24 +3399,7 @@
 			};
 			name = Release;
 		};
-		BE1281EFFA4587BF7801795FBCC5D49D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 221F88CBA3689E81C46771ABF8F28A6A /* HeyLogKit-OSX.debug.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HeyLogKit-OSX";
-				IBSC_MODULE = HeyLogKit;
-				INFOPLIST_FILE = "Target Support Files/HeyLogKit-OSX/ResourceBundle-HeyLogKit-HeyLogKit-OSX-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = HeyLogKit;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		C1389507D6FDA38B3AABC8C32D772482 /* Release */ = {
+		C4FC28D70175AE289324E320AF2E83A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4DFD13C35C97DFB864BAF8BF681423E0 /* HeyLogKit-OSX.release.xcconfig */;
 			buildSettings = {
@@ -3454,7 +3408,7 @@
 				IBSC_MODULE = HeyLogKit;
 				INFOPLIST_FILE = "Target Support Files/HeyLogKit-OSX/ResourceBundle-HeyLogKit-HeyLogKit-OSX-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_NAME = HeyLogKit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -3635,105 +3589,6 @@
 			};
 			name = Release;
 		};
-		ECEB87F6310A58C2FD8850FB09131FB0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DFD13C35C97DFB864BAF8BF681423E0 /* HeyLogKit-OSX.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HeyLogKit-OSX/HeyLogKit-OSX-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HeyLogKit-OSX/HeyLogKit-OSX-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MODULEMAP_FILE = "Target Support Files/HeyLogKit-OSX/HeyLogKit-OSX.modulemap";
-				PRODUCT_MODULE_NAME = HeyLogKit;
-				PRODUCT_NAME = HeyLogKit;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EE66E4609E6C6794346515C7A62F809F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23DE19DF919B24D02537A4072D45A491 /* Pods-HeyLogKit_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HeyLogKit_Tests/Pods-HeyLogKit_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HeyLogKit_Tests/Pods-HeyLogKit_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EFC8A5105E28766B01B797CEFC695726 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBD2F616D5B6879816DD92608CF37C65 /* Pods-HeyLogKit_MacDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HeyLogKit_MacDemo/Pods-HeyLogKit_MacDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MODULEMAP_FILE = "Target Support Files/Pods-HeyLogKit_MacDemo/Pods-HeyLogKit_MacDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		FAB01A138E7C4FEEA33E9A5B16E5D8DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5EB1C7C561CE240F5C1D8CCAF3FEEB47 /* HandyJSON-iOS.debug.xcconfig */;
@@ -3846,8 +3701,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				041F978B56A1D8BD4087FAF404C791F8 /* Debug */,
-				A0617F8A7CDD248B5F978CB2F20FAEBA /* Release */,
+				2D0FB2887ABC429A56ACFB9F5FF07945 /* Debug */,
+				00BB0D5C529E09D2A4421E6E4D29F0E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3855,8 +3710,8 @@
 		49016DC647CB3DBEB413A5FC55A3F9BE /* Build configuration list for PBXNativeTarget "Pods-HeyLogKit_MacDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EFC8A5105E28766B01B797CEFC695726 /* Debug */,
-				4F4FF3F2232C003628DF58507BB0070E /* Release */,
+				A24596BACA72E0B30640E7917AE4AD59 /* Debug */,
+				536285F38CEFCD32F57430E4D8B5E80C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3882,8 +3737,8 @@
 		72FA897CF66DC1C40121BF795A465B8C /* Build configuration list for PBXNativeTarget "HeyLogKit-OSX-HeyLogKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE1281EFFA4587BF7801795FBCC5D49D /* Debug */,
-				C1389507D6FDA38B3AABC8C32D772482 /* Release */,
+				4AA6888A7126CAA39C2B1F9D9DF4494C /* Debug */,
+				C4FC28D70175AE289324E320AF2E83A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3915,15 +3770,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C13330411E9403B3CECA765C0721D257 /* Build configuration list for PBXNativeTarget "Pods-HeyLogKit_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4127F695FF55AD80370DF6DA142FAB10 /* Debug */,
-				EE66E4609E6C6794346515C7A62F809F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D5480C5D42AA8B0CF0C71E4D89BF03BF /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3945,8 +3791,8 @@
 		E47BAAA959F8DCAAA99C209955DD7AC8 /* Build configuration list for PBXNativeTarget "HeyLogKit-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				650B8005E62E5CE136B625DB9E8D678B /* Debug */,
-				ECEB87F6310A58C2FD8850FB09131FB0 /* Release */,
+				AF09B9977438355A9FDB2C733FBF2593 /* Debug */,
+				9086EB41E6EC904AA0D2E6C9F7283099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
